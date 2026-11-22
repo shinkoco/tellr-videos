@@ -1,0 +1,42 @@
+{
+  "updated": "2026-11-22",
+  "rules": {
+    "priorite": "1 = campagne de clips payée ou accord public ; 2 = créateur très clippé sans position connue ; 3 = à utiliser avec parcimonie",
+    "clipping": "campagne = campagne Content Rewards active ; inconnu = aucune position publique trouvée (mode B, retrait si avertissement)",
+    "jamais": "Pas d'extraits d'émissions TV (M6, TF1…) : uniquement leurs chaînes YouTube, podcasts et interviews web. Citations fidèles, jamais coupées pour changer le sens.",
+    "verifie": "false tant que la tâche n'a pas trouvé et noté la chaîne exacte (handle YouTube) avec yt-dlp"
+  },
+  "blocked": [],
+  "creators": [
+    {"nom": "Yomi Denzel", "genre": "H", "profil": "business en ligne, argent", "source": "YouTube Yomi Denzel", "recherche": "Yomi Denzel", "clipping": "campagne", "campagne": "contentrewards.com/discover/14f743b2-c5ca-4f3e-8c0d-3010c485005d (candidature requise)", "priorite": 1, "controverse": true, "notes": "Formations en ligne critiquées dans la presse : légendes neutres, aucune promesse de gains"},
+    {"nom": "Marc Simoncini", "genre": "H", "profil": "investisseur, fondateur Meetic", "source": "podcast UNBX", "recherche": "Marc Simoncini UNBX", "clipping": "campagne", "campagne": "contentrewards.com/discover/3eed4d79-3d77-4704-9356-e1da545e6043 (passages UNBX uniquement)", "priorite": 1, "controverse": false, "notes": "Campagne limitée à ses passages dans UNBX"},
+    {"nom": "Matthieu Stefani", "genre": "H", "profil": "podcast business, finance", "source": "Génération Do It Yourself / La Martingale", "recherche": "Génération Do It Yourself", "clipping": "campagne", "campagne": "La Martingale citée par Content Rewards (détails à vérifier)", "priorite": 1, "controverse": false, "notes": "GDIY = mine d'invités (hommes et femmes)"},
+    {"nom": "Oussama Ammar", "genre": "H", "profil": "startups, cofondateur The Family", "source": "interviews et podcasts", "recherche": "Oussama Ammar interview", "clipping": "inconnu", "priorite": 2, "controverse": true, "notes": "Personnalité clivante : citer fidèlement, légendes neutres"},
+    {"nom": "Alex Hitchens", "genre": "H", "profil": "mindset, business", "source": "YouTube Alex Hitchens", "recherche": "Alex Hitchens", "clipping": "inconnu", "priorite": 2, "controverse": true, "notes": "Propos clivants : légendes neutres"},
+    {"nom": "Hasheur (Owen Simonin)", "genre": "H", "profil": "crypto, entrepreneuriat", "source": "YouTube Hasheur", "recherche": "Hasheur", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Jamais de conseil d'investissement présenté comme tel"},
+    {"nom": "Antoine BM", "genre": "H", "profil": "business en ligne", "source": "YouTube Antoine BM", "recherche": "Antoine BM", "clipping": "inconnu", "priorite": 3, "controverse": true, "notes": ""},
+    {"nom": "Xavier Niel", "genre": "H", "profil": "fondateur Free", "source": "interviews web, conférences", "recherche": "Xavier Niel interview conférence", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Éviter les extraits TV"},
+    {"nom": "Tony Parker", "genre": "H", "profil": "investisseur, Infinity Nine Group", "source": "interviews et podcasts", "recherche": "Tony Parker entrepreneur interview", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Pas d'extraits de « Qui veut être mon associé ? » (M6)"},
+    {"nom": "Jean-Michel Karam", "genre": "H", "profil": "fondateur MEMSCAP, IEVA", "source": "interviews et podcasts", "recherche": "Jean-Michel Karam interview", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Pas d'extraits M6"},
+    {"nom": "Hugues Trijasse", "genre": "H", "profil": "business, crypto, investissement", "source": "YouTube / podcasts", "recherche": "Hugues Trijasse", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Eric Larchevêque", "genre": "H", "profil": "cofondateur Ledger", "source": "YouTube / podcasts", "recherche": "Eric Larchevêque", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Pas d'extraits M6"},
+    {"nom": "Jonathan Anguelov", "genre": "H", "profil": "Aircall, immobilier", "source": "interviews et podcasts", "recherche": "Jonathan Anguelov interview", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Pas d'extraits M6"},
+    {"nom": "Guillaume Moubeche", "genre": "H", "profil": "fondateur Lemlist, SaaS", "source": "YouTube / podcasts", "recherche": "Guillaume Moubeche", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Thibault Louis", "genre": "H", "profil": "entrepreneuriat, dev perso", "source": "YouTube Thibault Louis", "recherche": "Thibault Louis", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Alexandre Roth", "genre": "H", "profil": "entrepreneuriat", "source": "YouTube Alexandre Roth", "recherche": "Alexandre Roth", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Alec Henry", "genre": "H", "profil": "coach business", "source": "podcast Le Déclic", "recherche": "Alec Henry Le Déclic", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Franck Nicolas", "genre": "H", "profil": "leadership, dev perso", "source": "YouTube / conférences", "recherche": "Franck Nicolas", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Mamadou Dembele", "genre": "H", "profil": "The Impact Story", "source": "YouTube / réseaux", "recherche": "Mamadou Dembele The Impact Story", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Tibo InShape", "genre": "H", "profil": "créateur, InShape Nutrition", "source": "interviews business", "recherche": "Tibo InShape interview business", "clipping": "inconnu", "priorite": 3, "controverse": true, "notes": "Uniquement le volet business, légendes neutres"},
+    {"nom": "Pauline Laigneau", "genre": "F", "profil": "cofondatrice Gemmyo, podcast Le Gratin", "source": "podcast Le Gratin", "recherche": "Pauline Laigneau Le Gratin", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Son podcast reçoit aussi de nombreux invités"},
+    {"nom": "Caroline Mignaux", "genre": "F", "profil": "marketing, personal branding", "source": "podcast Marketing Square", "recherche": "Caroline Mignaux", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Kelly Massol", "genre": "F", "profil": "fondatrice Les Secrets de Loly", "source": "interviews et podcasts", "recherche": "Kelly Massol interview", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": "Pas d'extraits M6"},
+    {"nom": "Justine Hutteau", "genre": "F", "profil": "cofondatrice Respire", "source": "interviews et podcasts", "recherche": "Justine Hutteau Respire", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Julie Chapon", "genre": "F", "profil": "cofondatrice Yuka", "source": "interviews et podcasts", "recherche": "Julie Chapon Yuka interview", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Hapsatou Sy", "genre": "F", "profil": "entrepreneuse, beauté", "source": "interviews et podcasts", "recherche": "Hapsatou Sy entrepreneuse", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Solène Feig", "genre": "F", "profil": "multipotentiels, podcast Audacieuse", "source": "podcast Audacieuse", "recherche": "Solène Feig Audacieuse", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Sixtine Moulle-Berteaux", "genre": "F", "profil": "Le Crayon, personal branding", "source": "interviews et podcasts", "recherche": "Sixtine Moulle-Berteaux", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": ""},
+    {"nom": "Céline Lazorthes", "genre": "F", "profil": "fondatrice Leetchi", "source": "interviews et podcasts", "recherche": "Céline Lazorthes interview", "clipping": "inconnu", "priorite": 2, "controverse": false, "notes": ""},
+    {"nom": "Marie Lopez (EnjoyPhoenix)", "genre": "F", "profil": "créatrice, entrepreneuse", "source": "interviews business", "recherche": "Marie Lopez EnjoyPhoenix entrepreneuse interview", "clipping": "inconnu", "priorite": 3, "controverse": false, "notes": "Uniquement le volet business"}
+  ]
+}
