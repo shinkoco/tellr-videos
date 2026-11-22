@@ -13,6 +13,7 @@ Dépôt : shinkoco/tellr-videos. Vidéos servies par `https://raw.githubusercont
 Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (sinon les télécharger dans tools/fonts/).
 
 ## Sources
+- SOURCE PRINCIPALE = release GitHub « sources » (vidéos officielles déposées par Mathieu, ex. Drive de la campagne Yomi Denzel). Lister : `curl -s https://api.github.com/repos/shinkoco/tellr-videos/releases/tags/sources` (champ assets[].name / browser_download_url), puis `curl -L -o src.mp4 <browser_download_url>`. Noter dans published.json la vidéo et les passages déjà utilisés pour ne jamais refaire le même moment. Le relais Mac (relay/) est une option, pas un prérequis.
 - SOURCE N°1 = vidéos officielles du Drive de la campagne Yomi Denzel, relayées par le Mac. Liste : relay/drive_index.tsv (nom dans la release → chemin d'origine). Télécharger : `curl -L -o src.mp4 https://github.com/shinkoco/tellr-videos/releases/download/sources/<slug>.mp4`. Le dossier « Clips Interdits » du Drive est exclu : ne jamais utiliser ces passages, même trouvés ailleurs.
 - YouTube est BLOQUÉ depuis les serveurs : ne pas télécharger YouTube directement. Passer par le RELAIS MAC (relay/INSTALL.md) :
   1. Trouver les vidéos via la recherche web (URL youtube.com/watch?v=…), les ajouter dans `relay/queue.txt`, commit + push.
