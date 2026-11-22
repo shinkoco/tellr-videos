@@ -2,6 +2,7 @@
 
 Ouvre l'app **Terminal** et colle ces commandes une par une.
 
+0. Google Drive pour ordinateur (gratuit) : https://www.google.com/drive/download/ — se connecter avec le compte Google qui a accès à la campagne Yomi. Le Drive de la campagne apparaît dans le Finder, section « Drive partagés ».
 1. Homebrew (si pas déjà installé) :
    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. Les outils : `brew install yt-dlp ffmpeg gh git`
@@ -15,3 +16,6 @@ Fonctionnement : la tâche TELLR écrit les liens YouTube voulus dans `relay/que
 et les dépose dans la release GitHub « sources » (pas dans le dépôt lui-même). La tâche les récupère ensuite depuis
 `https://github.com/shinkoco/tellr-videos/releases/download/sources/<id>.mp4` et monte les clips.
 Le Mac doit être allumé (ou s'allumer) le matin ; sinon le relais tourne au prochain démarrage.
+
+Sources Drive : le relais envoie aussi les MP4 du dossier « EXTRAITS YOMI » (jamais « Clips Interdits »), 10 par passage.
+Correspondance nom de fichier → vidéo : relay/drive_index.tsv. Si le dossier n'est pas trouvé, mettre son chemin dans la variable TELLR_DRIVE_DIR.

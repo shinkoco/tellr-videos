@@ -22,5 +22,7 @@ while read -r url; do
     echo "$(date) ERREUR téléchargement $url" >> "$LOG"
   fi
 done < relay/queue.txt
+bash "$REPO/relay/drive_relay.sh"
+cd "$REPO" && git pull -q --rebase
 git add relay/done.txt relay/relay.log 2>/dev/null
 git commit -q -m "relais : sources du $(date +%F)" && git push -q
