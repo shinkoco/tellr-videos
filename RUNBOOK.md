@@ -13,6 +13,11 @@ Dépôt : shinkoco/tellr-videos. Vidéos servies par `https://raw.githubusercont
 Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (sinon les télécharger dans tools/fonts/).
 
 ## Sources
+- YouTube est BLOQUÉ depuis les serveurs : ne pas télécharger YouTube directement. Passer par le RELAIS MAC (relay/INSTALL.md) :
+  1. Trouver les vidéos via la recherche web (URL youtube.com/watch?v=…), les ajouter dans `relay/queue.txt`, commit + push.
+  2. Le Mac les dépose dans la release « sources » (7 h et 19 h). Liste : relay/done.txt.
+  3. Télécharger avec `curl -L -o src.mp4 https://github.com/shinkoco/tellr-videos/releases/download/sources/<id>.mp4`.
+  4. Si une vidéo n'est pas encore relayée, prendre une autre déjà dans done.txt, ou attendre l'exécution suivante (le signaler dans le récap).
 - `creators.json` : base des créateurs. Priorité 1 (campagne de clips) d'abord, puis 2, puis 3. Alterner hommes et femmes.
 - Trouver la vidéo avec `yt-dlp "ytsearch10:<recherche>" --flat-playlist --print "%(id)s|%(channel)s|%(duration)s|%(title)s"`. Ne garder que la chaîne officielle de la personne ou d'un podcast/média sérieux, en français.
 - Quand la chaîne exacte est confirmée, la noter dans creators.json (`chaine`, `verifie: true`).
@@ -20,7 +25,7 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - Ne jamais republier un moment déjà publié : vérifier `published.json`.
 
 ## Fabrication d'un clip (60 à 90 s)
-1. Télécharger un segment : `yt-dlp --download-sections "*HH:MM:SS-HH:MM:SS" -f "best[height<=1080]" -o src.mp4 URL`.
+1. Récupérer la vidéo depuis la release « sources » (voir Sources), puis couper le segment avec ffmpeg.
 2. Transcrire (faster-whisper `small`, int8, language="fr", word_timestamps=True).
 3. Choisir un passage qui se suffit à lui-même (une idée, une histoire, une leçon), 60 à 90 s, coupé sur des fins de phrase.
 4. Repérer le visage sur une image du segment pour le `crop` 9:16 si le cadrage centré coupe la personne.
