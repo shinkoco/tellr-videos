@@ -1,8 +1,29 @@
 # TELLR — runbook
 
-Chaîne TikTok **TELLR** (@tellr_fr) : clips d'entrepreneurs et de business en français.
-Dépôt : shinkoco/tellr-videos. Vidéos servies par `https://raw.githubusercontent.com/shinkoco/tellr-videos/main/<chemin>`.
+Chaîne TikTok **TELLR** (@tellr_fr). Signature : **« TELLR. Le live, raconté. »**
+Bio : « Le live, raconté. / Les meilleurs moments du live, en 90 secondes. »
 
+## LIGNE ÉDITORIALE (décidée le 23/11/2026 — fait foi, remplace l'ancienne idée « clips d'entrepreneurs »)
+- Le meilleur du live, HORS JEU VIDÉO : moments drôles, clashs, débats, réactions à l'actu, histoires racontées en live,
+  et une catégorie « argent et business » (revenus, marques, deals des streamers, entrepreneurs invités).
+- Source = Twitch (seule plateforme vidéo accessible en autonomie, avec Kick à tester). YouTube, TikTok, Instagram : bloqués.
+- Français en priorité ; au maximum 1 clip anglais par jour, sous-titré en français.
+- DEUX FILTRES obligatoires :
+  1. Demande : le clip est dans le haut de `python3 tools/twitch_top.py LAST_WEEK FR` (ou LAST_DAY) — le public l'a déjà clippé et regardé.
+  2. Intérêt : après transcription, garder uniquement s'il y a un vrai enjeu (chute drôle, info, chiffre fort, clash, retournement). Sinon, jeter.
+  Les clips d'une même séquence (ex. « … 1 », « … 2 », « … 3 ») peuvent être assemblés dans l'ordre pour raconter l'histoire complète.
+- Exclure : jeu vidéo (c'est un autre compte), contenu sexuel, haine, harcèlement, mineurs mis en cause, drames privés, accusations non prouvées.
+
+## RÈGLES DES TEXTES (définitives)
+- Bandeau d'ouverture : citation EXACTE prononcée dans l'extrait. Jamais réécrite pour faire cliquer.
+- Ligne de contexte : facultative, factuelle, sans exagération ni formule « piège à clics ».
+- Sous-titres : fidèles aux propos, sans déformation du sens. Corriger les erreurs évidentes de transcription ; en cas de doute sur un nom propre (marque, personne), ne pas l'écrire.
+- Carte de fin « À retenir » : la morale ou la leçon, reformulée par TELLR, + « TELLR. Le live, raconté. ». Aucune autre accroche.
+- Toujours créditer le streamer et la plateforme (« Source : Michou · Twitch »). Retrait immédiat si un streamer le demande.
+
+Exemple de référence : clips/tests/tellr_test1_michou.mp4 (+ .json = spec complète).
+
+---
 ## État au 22/11/2026
 - Phase TEST : produire des clips dans `clips/tests/`, NE RIEN PUBLIER, ne pas toucher à Zernio.
 - Charte graphique PROVISOIRE (orange #FF6A1A, Inter Display). Mathieu dessine le logo : ne pas inventer de charte.

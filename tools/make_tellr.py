@@ -103,14 +103,19 @@ def end_png(spec, path):
     d.rectangle([0, 0, W, 16], fill=ACCENT)
     d.rounded_rectangle([70, 520, 420, 590], 35, fill=ACCENT)
     d.text((105, 530), "À RETENIR", font=font("Black", 44), fill=INK)
-    ft = font("Black", 88)
-    lines = wrap(d, spec["takeaway"], ft, W - 140)[:4]
+    for size in (88, 78, 68, 60):
+        ft = font("Black", size)
+        lines = wrap(d, spec["takeaway"], ft, W - 140)
+        if len(lines) <= 5:
+            break
+    lh = int(size * 1.2)
     for i, l in enumerate(lines):
-        d.text((70, 640 + i * 106), l, font=ft, fill=INK)
-    d.text((70, 660 + len(lines) * 106), "Extrait : " + spec.get("source", spec["guest"]), font=font("SemiBold", 36), fill=(110, 100, 90))
+        d.text((70, 640 + i * lh), l, font=ft, fill=INK)
+    d.text((70, 660 + len(lines) * lh), "Extrait : " + spec.get("source", spec["guest"]), font=font("SemiBold", 36), fill=(110, 100, 90))
     d.rounded_rectangle([70, 1500, 1010, 1640], 24, fill=INK)
     d.text((140, 1530), "Abonne-toi pour la suite", font=font("Black", 64), fill=(255, 255, 255))
-    d.text((70, 1720), "TELLR", font=font("Black", 72), fill=INK)
+    d.text((70, 1700), "TELLR.", font=font("Black", 72), fill=INK)
+    d.text((70, 1790), "Le live, raconté.", font=font("SemiBold", 44), fill=(110, 100, 90))
     img.save(path)
 
 
