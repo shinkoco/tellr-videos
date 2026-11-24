@@ -24,6 +24,7 @@ Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. 
 ## RÈGLES DES TEXTES (définitives)
 - Bandeau d'ouverture : citation EXACTE prononcée dans l'extrait. Jamais réécrite pour faire cliquer.
 - Ligne de contexte : facultative, factuelle, sans exagération ni formule « piège à clics ».
+- Noms de marques : la boisson de DJ Snake s'écrit « Oui » (jamais « Wee », erreur de transcription). Vérifier l'orthographe de toute marque citée.
 - Sous-titres : fidèles aux propos, sans déformation du sens. Corriger les erreurs évidentes de transcription ; en cas de doute sur un nom propre (marque, personne), ne pas l'écrire.
 - Carte de fin « À retenir » : la morale ou la leçon, reformulée par TELLR, + « TELLR. Le live, raconté. ». Aucune autre accroche.
 - Toujours créditer le streamer et la plateforme (« Source : Michou · Twitch »). Retrait immédiat si un streamer le demande.
@@ -74,6 +75,7 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - Ne jamais laisser croire qu'un invité est partenaire de TELLR.
 
 ## Publication (active depuis le 25/11/2026)
+- 1er jour (25/11) : le clip 12:30 = clips/tests/tellr_test2_michou.mp4 (Michou · Oui de DJ Snake, déjà validé par Mathieu, l'ajouter à published.json). Les 2 autres sont produits normalement.
 - TikTok @tellr_fr via Zernio, compte `6b060a9242fa5702dd3fa8a5`. NE JAMAIS publier sur Tamko (`6af7635df038e4d78c1b8569`) ni Partners in Vice (`6afc525031be0a779a30b36e`), qui sont sur le même Zernio.
 - 3 vidéos/jour MAX, heures de publication 12:30, 18:30, 21:30. Envoi en BROUILLON (tiktok_settings {"draft": true}, type vidéo), programmé 45 min avant (11:45, 17:45, 20:45). Mathieu publie à la main depuis sa Boîte de réception TikTok. Jamais de publication directe.
 - tiktok_settings : {"draft": true, "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true}. Vidéo = URL raw GitHub du fichier poussé dans clips/AAAA-MM-JJ/.
