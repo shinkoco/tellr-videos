@@ -100,18 +100,22 @@ def hook_png(spec, path):
         if len(lines) <= 4:
             break
     lh = int(size * 1.12)
-    body_h = 60 + 50 + len(lines) * lh + 30 + 40
+    body_h = 64 + 58 + len(lines) * lh + 56
     bh = int(body_h / 0.76)          # la pointe occupe le bas de la bulle
     img.alpha_composite(bubble_img(bw, bh, OR), (bx, SAFE_T))
-    y = SAFE_T + 60
-    d.text((bx + pad, y), spec["guest"].upper(), font=font("Bold", 36), fill=CR)
-    y += 50
+    y = SAFE_T + 64
+    fn = font("Bold", 36)
+    name = spec["guest"].upper()
+    d.text((bx + pad, y), name, font=fn, fill=CR)
+    cat = spec.get("category", "")
+    if cat:
+        x = bx + pad + d.textlength(name + "  ·  ", font=fn)
+        d.text((bx + pad + d.textlength(name, font=fn), y), "  ·  ", font=fn, fill=CR)
+        d.text((x, y), cat.upper(), font=fn, fill=INK)
+    y += 58
     for l in lines:
         d.text((bx + pad, y), l, font=fq, fill=CR)
         y += lh
-    cat = spec.get("category", "")
-    if cat:
-        d.text((bx + pad, y + 18), cat.upper(), font=font("Bold", 32), fill=INK)
     img.save(path)
 
 
@@ -149,7 +153,7 @@ def tag_png(spec, path):
 
 def end_png(spec, path):
     """Écran de fin : alterne E (fond orange) et F (fond crème, leçon dans la bulle)."""
-    style = spec.get("end_style") or ("E" if sum(map(ord, spec.get("hook", ""))) % 2 == 0 else "F")
+    style = spec.get("end_style") or "E"   # E = fond orange (validé) ; F (crème) abandonné le 24/11/2026
     if style == "E":
         img = Image.new("RGBA", (W, H), ACCENT + (255,))
         d = ImageDraw.Draw(img)
