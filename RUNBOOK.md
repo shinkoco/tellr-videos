@@ -1,7 +1,7 @@
 # TELLR — runbook
 
 Chaîne TikTok **TELLR** (@tellr_fr). Signature : **« TELLR. Le live, raconté. »**
-Bio : « Le live, raconté. / Les meilleurs moments du live, en 90 secondes. »
+Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. »
 
 ## LIGNE ÉDITORIALE (décidée le 23/11/2026 — fait foi, remplace l'ancienne idée « clips d'entrepreneurs »)
 - Le meilleur du live, HORS JEU VIDÉO : moments drôles, clashs, débats, réactions à l'actu, histoires racontées en live,
