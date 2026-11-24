@@ -81,7 +81,7 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - tiktok_settings : {"draft": true, "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true}. Vidéo = URL raw GitHub du fichier poussé dans clips/AAAA-MM-JJ/.
 - La légende n'est pas transmise en brouillon : l'écrire dans hub/tellr.json → channel.drafts [{time, label, caption}]. Légende : 1 phrase + « 🎥 <Streamer> en live sur Twitch » + 5 hashtags (dont #tellr), sans URL, jamais #shorts.
 - Avant d'envoyer, lister les posts Zernio du compte TELLR : ne jamais envoyer 2 brouillons pour le même créneau.
-- Retour d'expérience Partners in Vice (22/11) : les gens décrochent vite. Ouvrir sur la phrase choc (le bandeau la porte), couper TOUS les temps morts, viser 61-75 s.
+- Retour d'expérience Partners in Vice (22/11) : les gens décrochent vite. Ouvrir sur la phrase choc (le bandeau la porte), couper TOUS les temps morts, viser 61-75 s. Plafond ABSOLU : 90 s (promesse de la bio « en 90 secondes »), jamais au-delà, écran de fin compris.
 
 ## HUB
 - Écrire hub/tellr.json (format de https://github.com/studiomgi/studiomgi.github.io/blob/main/HUB.md) : planning du jour, drafts, stats TikTok (Zernio analytics du compte TELLR, 1 appel), alertes préfixées « TELLR : ». La page studiomgi.github.io affiche l'onglet TELLR automatiquement.
