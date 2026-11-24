@@ -14,6 +14,13 @@ Bio : « Le live, raconté. / Les meilleurs moments du live, en 90 secondes. »
   Les clips d'une même séquence (ex. « … 1 », « … 2 », « … 3 ») peuvent être assemblés dans l'ordre pour raconter l'histoire complète.
 - Exclure : jeu vidéo (c'est un autre compte), contenu sexuel, haine, harcèlement, mineurs mis en cause, drames privés, accusations non prouvées.
 
+## CHARTE (validée le 24/11/2026)
+- Couleurs : orange #EF4A23, crème #FFF6EC, encre #1A1A1A. Logo « TellR » + bulle à coins coupés : tools/brand/ (tellr_brand.json + SVG).
+- Accroche (0-3 s) : phrase choc dans une GRANDE BULLE ORANGE, texte crème, nom du streamer au-dessus, catégorie en dessous. Toujours dans la zone de sécurité (haut 150 px, côtés 60 px).
+- Pendant le clip : badge TellR en haut à droite, crédit « Streamer · Twitch » en haut à gauche, sous-titres en pastille crème avec mot-clé orange.
+- Fin : alterner E (fond orange, badge crème + slogan) et F (fond crème, leçon dans la bulle, logo + slogan) ; toujours « Abonne-toi pour la suite ».
+- Une seule police (Inter Display) pour tous les textes hors logo.
+
 ## RÈGLES DES TEXTES (définitives)
 - Bandeau d'ouverture : citation EXACTE prononcée dans l'extrait. Jamais réécrite pour faire cliquer.
 - Ligne de contexte : facultative, factuelle, sans exagération ni formule « piège à clics ».
@@ -21,7 +28,7 @@ Bio : « Le live, raconté. / Les meilleurs moments du live, en 90 secondes. »
 - Carte de fin « À retenir » : la morale ou la leçon, reformulée par TELLR, + « TELLR. Le live, raconté. ». Aucune autre accroche.
 - Toujours créditer le streamer et la plateforme (« Source : Michou · Twitch »). Retrait immédiat si un streamer le demande.
 
-Exemple de référence : clips/tests/tellr_test1_michou.mp4 (+ .json = spec complète).
+Exemples de référence : clips/tests/tellr_test2_michou_finE.mp4 et _finF.mp4 (+ .json = spec complète).
 
 ---
 ## État au 22/11/2026
@@ -30,7 +37,7 @@ Exemple de référence : clips/tests/tellr_test1_michou.mp4 (+ .json = spec comp
 - Ne jamais toucher aux tâches, dépôts ou comptes de Tamko et de Partners in Vice.
 
 ## Installation (chaque exécution repart de zéro)
-`pip install --break-system-packages -q yt-dlp faster-whisper numpy pillow` puis vérifier `ffmpeg` (sinon `apt-get install -y -q ffmpeg`).
+`pip install --break-system-packages -q yt-dlp faster-whisper numpy pillow cairosvg` puis vérifier `ffmpeg` (sinon `apt-get install -y -q ffmpeg`).
 Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (sinon les télécharger dans tools/fonts/).
 
 ## Sources
