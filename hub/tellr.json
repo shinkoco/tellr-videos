@@ -1,0 +1,38 @@
+{
+ "updated": "2026-11-24T23:30:00+01:00",
+ "date_label": "Mardi 24 novembre",
+ "alerts": [
+  "TELLR : compte prêt, première production demain matin (3 brouillons TikTok)."
+ ],
+ "channel": {
+  "name": "TELLR",
+  "headline": [
+   "TELLR,",
+   "lancement demain."
+  ],
+  "summary": "Compte @tellr_fr connecté à Zernio. Premiers brouillons TikTok demain : 12:30, 18:30, 21:30.",
+  "kpis": [
+   {
+    "platform": "TikTok",
+    "label": "Vues",
+    "detail": "pas encore de vidéo",
+    "value": null,
+    "unit": "vues",
+    "bar": 0
+   }
+  ],
+  "followers": {
+   "label": "Abonnés TikTok",
+   "value": null,
+   "goal": 1000
+  },
+  "today": [],
+  "upcoming": [
+   {
+    "day": "Demain",
+    "text": "3 premiers clips TELLR en brouillon"
+   }
+  ],
+  "drafts": []
+ }
+}

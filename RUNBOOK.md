@@ -73,6 +73,13 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - Aucune promesse de gains, aucun conseil d'investissement présenté comme tel.
 - Ne jamais laisser croire qu'un invité est partenaire de TELLR.
 
-## Publication (plus tard, après validation de Mathieu)
-- TikTok via Zernio en BROUILLON, 3 vidéos/jour maximum, espacées de 3 h. Légendes dans le HUB (hub/tellr.json), sans URL, 5 hashtags, jamais #shorts.
-- Zernio : 3e compte payant (6 $/mois) — à connecter par Mathieu.
+## Publication (active depuis le 25/11/2026)
+- TikTok @tellr_fr via Zernio, compte `6b060a9242fa5702dd3fa8a5`. NE JAMAIS publier sur Tamko (`6af7635df038e4d78c1b8569`) ni Partners in Vice (`6afc525031be0a779a30b36e`), qui sont sur le même Zernio.
+- 3 vidéos/jour MAX, heures de publication 12:30, 18:30, 21:30. Envoi en BROUILLON (tiktok_settings {"draft": true}, type vidéo), programmé 45 min avant (11:45, 17:45, 20:45). Mathieu publie à la main depuis sa Boîte de réception TikTok. Jamais de publication directe.
+- tiktok_settings : {"draft": true, "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true}. Vidéo = URL raw GitHub du fichier poussé dans clips/AAAA-MM-JJ/.
+- La légende n'est pas transmise en brouillon : l'écrire dans hub/tellr.json → channel.drafts [{time, label, caption}]. Légende : 1 phrase + « 🎥 <Streamer> en live sur Twitch » + 5 hashtags (dont #tellr), sans URL, jamais #shorts.
+- Avant d'envoyer, lister les posts Zernio du compte TELLR : ne jamais envoyer 2 brouillons pour le même créneau.
+- Retour d'expérience Partners in Vice (22/11) : les gens décrochent vite. Ouvrir sur la phrase choc (le bandeau la porte), couper TOUS les temps morts, viser 61-75 s.
+
+## HUB
+- Écrire hub/tellr.json (format de https://github.com/studiomgi/studiomgi.github.io/blob/main/HUB.md) : planning du jour, drafts, stats TikTok (Zernio analytics du compte TELLR, 1 appel), alertes préfixées « TELLR : ». La page studiomgi.github.io affiche l'onglet TELLR automatiquement.
