@@ -1,0 +1,149 @@
+{
+ "src": "/tmp/w/pigeon_cut.mp4",
+ "start": 0,
+ "end": 56.3,
+ "crop": [
+  690,
+  0,
+  608,
+  1080
+ ],
+ "guest": "Domingo",
+ "hook": "Il y a un pigeon qui lui chie dans les cheveux",
+ "context": "Domingo raconte la mésaventure du basketteur NBA Maxime Raynaud après leur live",
+ "source": "Domingo · Twitch",
+ "captions": [
+  [
+   0.0,
+   0.9,
+   "Tu sais que, quand même,"
+  ],
+  [
+   0.9,
+   2.5,
+   "*Maxime Raynaud*,"
+  ],
+  [
+   2.5,
+   3.1,
+   "joueur NBA,"
+  ],
+  [
+   4.6,
+   7.1,
+   "un *crack* absolu en équipe de France"
+  ],
+  [
+   7.1,
+   9.9,
+   "qui joue aux Kings, à Sacramento,"
+  ],
+  [
+   10.9,
+   13.9,
+   "records universitaires à *Stanford*,"
+  ],
+  [
+   14.0,
+   15.2,
+   "il est blessé en ce moment."
+  ],
+  [
+   16.6,
+   19.9,
+   "Je l'avais amené sur Paris pour un *live*,"
+  ],
+  [
+   20.3,
+   21.0,
+   "c'était trop cool."
+  ],
+  [
+   21.9,
+   24.7,
+   "On sort du live,"
+  ],
+  [
+   24.8,
+   26.9,
+   "il y a un *pigeon* qui lui chie"
+  ],
+  [
+   26.9,
+   28.7,
+   "dans les cheveux, pardon,"
+  ],
+  [
+   28.7,
+   31.0,
+   "le pigeon *vraiment* lui chie dans les cheveux."
+  ],
+  [
+   34.1,
+   37.7,
+   "J'ai une photo *souvenir*, un petit bonheur."
+  ],
+  [
+   38.5,
+   41.7,
+   "On se dit au revoir, ciao, on va au *métro*,"
+  ],
+  [
+   42.3,
+   43.8,
+   "et... ah, j'ai un truc dans les *cheveux*."
+  ],
+  [
+   44.0,
+   45.4,
+   "Une *merde* énorme"
+  ],
+  [
+   45.4,
+   46.8,
+   "dans les cheveux."
+  ],
+  [
+   47.1,
+   48.3,
+   "C'était *grandiose*."
+  ],
+  [
+   49.4,
+   51.4,
+   "C'est une *cible* facile, il fait 2 m 16."
+  ],
+  [
+   51.6,
+   53.1,
+   "Il était pas loin de l'arbre."
+  ],
+  [
+   53.9,
+   55.7,
+   "Il y a eu un *eye contact*,"
+  ],
+  [
+   55.7,
+   56.3,
+   "c'était..."
+  ]
+ ],
+ "zooms": [
+  [
+   24.8,
+   28.7
+  ],
+  [
+   42.6,
+   46.4
+  ],
+  [
+   51.6,
+   53.0
+  ]
+ ],
+ "takeaway": "Même à 2 m 16, on n'échappe pas à un pigeon bien visé.",
+ "category": "Drôle",
+ "end_secs": 5.0
+}
