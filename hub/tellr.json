@@ -1,21 +1,23 @@
 {
- "updated": "2026-11-24T23:30:00+01:00",
- "date_label": "Mardi 24 novembre",
+ "updated": "2026-11-25T07:40:00+01:00",
+ "date_label": "Mercredi 25 novembre",
  "alerts": [
-  "TELLR : compte prêt, première production demain matin (3 brouillons TikTok)."
+  "TELLR : 2 clips seulement aujourd'hui (Michou 12:30, Domingo 18:30), pas de créneau 21:30 : pas de 3e moment assez fort ce jour-là (le meilleur du jour fait ~380 vues).",
+  "TELLR : tools/twitch_top.py était absent du dépôt, recréé (GraphQL Twitch). Les clips Twitch font 60 s max : le clip Domingo dure 61 s, sans marge pour couper les temps morts.",
+  "TELLR : brouillons à publier à la main depuis la Boîte de réception TikTok (légendes ci-dessous)."
  ],
  "channel": {
   "name": "TELLR",
   "headline": [
    "TELLR,",
-   "lancement demain."
+   "2 clips du jour."
   ],
-  "summary": "Compte @tellr_fr connecté à Zernio. Premiers brouillons TikTok demain : 12:30, 18:30, 21:30.",
+  "summary": "Michou (Oui, la boisson de DJ Snake) à 12:30 et Domingo (le pigeon de Maxime Raynaud) à 18:30, en brouillon TikTok.",
   "kpis": [
    {
     "platform": "TikTok",
     "label": "Vues",
-    "detail": "pas encore de vidéo",
+    "detail": "pas encore de vidéo publiée",
     "value": null,
     "unit": "vues",
     "bar": 0
@@ -23,16 +25,36 @@
   ],
   "followers": {
    "label": "Abonnés TikTok",
-   "value": null,
+   "value": 1119,
    "goal": 1000
   },
-  "today": [],
+  "today": [
+   {
+    "time": "12:30",
+    "text": "Michou · Oui de DJ Snake (Business)"
+   },
+   {
+    "time": "18:30",
+    "text": "Domingo · le pigeon de Maxime Raynaud (Drôle)"
+   }
+  ],
   "upcoming": [
    {
     "day": "Demain",
-    "text": "3 premiers clips TELLR en brouillon"
+    "text": "3 clips TELLR en brouillon"
    }
   ],
-  "drafts": []
+  "drafts": [
+   {
+    "time": "12:30",
+    "label": "Michou · Oui de DJ Snake",
+    "caption": "Michou goûte Oui, la boisson lancée par DJ Snake, et son verdict tombe vite 🥤\n🎥 Michou en live sur Twitch\n#tellr #michou #djsnake #twitch #lelive"
+   },
+   {
+    "time": "18:30",
+    "label": "Domingo · le pigeon",
+    "caption": "Domingo raconte le pigeon qui a visé Maxime Raynaud, 2 m 16, à la sortie de leur live 🐦\n🎥 Domingo en live sur Twitch\n#tellr #domingo #nba #twitch #lelive"
+   }
+  ]
  }
 }
