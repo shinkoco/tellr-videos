@@ -77,10 +77,10 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 ## Publication (active depuis le 25/11/2026)
 - 1er jour (25/11) : le clip 12:30 = clips/tests/tellr_test2_michou.mp4 (Michou · Oui de DJ Snake, déjà validé par Mathieu, l'ajouter à published.json). Les 2 autres sont produits normalement.
 - TikTok @tellr_fr via Zernio, compte `6b060a9242fa5702dd3fa8a5`. NE JAMAIS publier sur Tamko (`6af7635df038e4d78c1b8569`) ni Partners in Vice (`6afc525031be0a779a30b36e`), qui sont sur le même Zernio.
-- 3 vidéos/jour MAX, heures de publication 12:30, 18:30, 21:30. Envoi en BROUILLON (tiktok_settings {"draft": true}, type vidéo), programmé 45 min avant (11:45, 17:45, 20:45). Mathieu publie à la main depuis sa Boîte de réception TikTok. Jamais de publication directe.
-- tiktok_settings : {"draft": true, "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true}. Vidéo = URL raw GitHub du fichier poussé dans clips/AAAA-MM-JJ/.
-- La légende n'est pas transmise en brouillon : l'écrire dans hub/tellr.json → channel.drafts [{time, label, caption}]. Légende : 1 phrase + « 🎥 <Streamer> en live sur Twitch » + 5 hashtags (dont #tellr), sans URL, jamais #shorts.
-- Avant d'envoyer, lister les posts Zernio du compte TELLR : ne jamais envoyer 2 brouillons pour le même créneau.
+- 3 vidéos/jour MAX, PUBLICATION AUTOMATIQUE (décidé par Mathieu le 25/11 : les brouillons n'arrivent pas) : posts programmés directement à 12:30, 18:30 et 21:30 (Europe/Paris), PAS de brouillon.
+- tiktok_settings : {"draft": false, "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true}. Vidéo = URL raw GitHub du fichier poussé dans clips/AAAA-MM-JJ/.
+- La légende va dans le contenu du post (content). La recopier aussi dans hub/tellr.json → channel.drafts [{time, label, caption}] pour mémoire. Légende : 1 phrase + « 🎥 <Streamer> en live sur Twitch » + 5 hashtags (dont #tellr), sans URL, jamais #shorts.
+- Avant d'envoyer, lister les posts Zernio du compte TELLR : ne jamais programmer 2 posts pour le même créneau.
 - Retour d'expérience Partners in Vice (22/11) : les gens décrochent vite. Ouvrir sur la phrase choc (le bandeau la porte), couper TOUS les temps morts, viser 61-75 s. Plafond ABSOLU : 90 s (promesse de la bio « en 90 secondes »), jamais au-delà, écran de fin compris.
 
 ## HUB
