@@ -54,8 +54,8 @@ def wrap(d, text, fnt, maxw):
 
 BRAND = json.load(open(os.path.join(os.path.dirname(__file__), "brand", "tellr_brand.json")))
 OR, CR, INKH = BRAND["colors"]["orange"], BRAND["colors"]["cream"], BRAND["colors"]["ink"]
-# Zones de sécurité TikTok (1080x1920) : haut 150 px, bas 420 px, côtés 60 px, colonne de boutons à droite (x > 940) sous y = 900.
-SAFE_L, SAFE_R, SAFE_T = 60, 1020, 150
+# Zones de sécurité TikTok EN LIGNE (vérifiées sur capture 25/11 : barre « Rechercher » jusqu'à y≈250, recadrage latéral ~52 px) : haut 300 px, bas 420 px, côtés 120 px, colonne de boutons à droite (x > 940) sous y = 900.
+SAFE_L, SAFE_R, SAFE_T = 120, 960, 300
 
 
 def _svg_png(svg, w, h):
@@ -157,14 +157,14 @@ def end_png(spec, path):
     if style == "E":
         img = Image.new("RGBA", (W, H), ACCENT + (255,))
         d = ImageDraw.Draw(img)
-        d.text((90, 300), "À RETENIR", font=font("Bold", 44), fill=INK)
+        d.text((130, 420), "À RETENIR", font=font("Bold", 44), fill=INK)
         for size in (88, 78, 68):
             ft = font("Black", size)
-            lines = wrap(d, spec["takeaway"], ft, 880)
+            lines = wrap(d, spec["takeaway"], ft, 800)
             if len(lines) <= 5:
                 break
         for i, l in enumerate(lines):
-            d.text((90, 370 + i * int(size * 1.18)), l, font=ft, fill=CREAM)
+            d.text((130, 490 + i * int(size * 1.18)), l, font=ft, fill=CREAM)
         # badge crème sur fond orange : on inverse les couleurs
         bub = bubble_img(420, int(420 * 430 / 400), CR)
         bub.alpha_composite(wordmark_img(int(420 * 0.68), OR), (int(420 * 0.13), int(420 * 0.22)))

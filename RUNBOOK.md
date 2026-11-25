@@ -93,3 +93,5 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - ESPORT = catégorie à part entière (décidé par Mathieu le 25/11) : grosse actualité à sortir (transferts, annonces, clubs, résultats, réactions). Afficher « Esport » dans la bulle. Seul le gameplay pur reste exclu.
 
 - Format HUB (vérifié sur index.html) : today = [{time, platform:"TikTok", title, status:"programmé"}] (PAS « text »). Les légendes sont dans channel.drafts, affichées dans la carte « Brouillons TikTok à publier », plus bas dans l'onglet TELLR, avec un bouton Copier.
+
+- ZONE DE SÉCURITÉ EN LIGNE (corrigée le 25/11 après capture de Mathieu : la barre « Rechercher » TikTok recouvrait le haut) : haut 300 px, côtés 120 px, bas 420 px. tools/make_tellr.py (SAFE_T/L/R) est déjà réglé ; vérifier les 4 images avec cette marge.
