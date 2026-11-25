@@ -91,3 +91,5 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - Durée MINIMUM 61 s (vidéo finale, écran de fin compris), plafond 90 s. Un clip Twitch fait 60 s max : prendre le clip entier + écran de fin (end_secs 4-5) ou chaîner deux clips.
 - Outils : tools/twitch_top.py (liste), tools/twitch_dl.py tag=slug (téléchargement signé), tools/twitch_chain.py (clips contigus), tools/transcribe_words.py (mots horodatés ; faster-whisper reçoit un tableau numpy via ffmpeg). make_tellr.py : lancer en arrière-plan (nohup), ~2 min.
 - ESPORT = catégorie à part entière (décidé par Mathieu le 25/11) : grosse actualité à sortir (transferts, annonces, clubs, résultats, réactions). Afficher « Esport » dans la bulle. Seul le gameplay pur reste exclu.
+
+- Format HUB (vérifié sur index.html) : today = [{time, platform:"TikTok", title, status:"programmé"}] (PAS « text »). Les légendes sont dans channel.drafts, affichées dans la carte « Brouillons TikTok à publier », plus bas dans l'onglet TELLR, avec un bouton Copier.

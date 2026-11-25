@@ -30,15 +30,21 @@
   "today": [
    {
     "time": "12:30",
-    "text": "Michou · Oui de DJ Snake (Business)"
+    "platform": "TikTok",
+    "title": "Michou · Oui de DJ Snake (Business)",
+    "status": "programmé"
    },
    {
     "time": "18:30",
-    "text": "Domingo · le pigeon de Maxime Raynaud (Drôle)"
+    "platform": "TikTok",
+    "title": "Domingo · le pigeon de Maxime Raynaud (Drôle)",
+    "status": "programmé"
    },
    {
     "time": "21:30",
-    "text": "Kameto · départ de Yike, Karmine Corp (Esport)"
+    "platform": "TikTok",
+    "title": "Kameto · départ de Yike, Karmine Corp (Esport)",
+    "status": "programmé"
    }
   ],
   "upcoming": [
