@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:40:00+01:00",
+ "updated": "2026-11-25T15:55:00+01:00",
  "date_label": "Mercredi 25 novembre",
  "alerts": [
   "TELLR : 3 clips du jour en brouillon (Michou 12:30, Domingo 18:30, Kameto 21:30).",
@@ -12,21 +12,6 @@
    "3 clips du jour."
   ],
   "summary": "Michou (Oui de DJ Snake) 12:30, Domingo (le pigeon) 18:30, Kameto (départ de Yike) 21:30, en brouillon TikTok.",
-  "kpis": [
-   {
-    "platform": "TikTok",
-    "label": "Vues",
-    "detail": "pas encore de vidéo publiée",
-    "value": null,
-    "unit": "vues",
-    "bar": 0
-   }
-  ],
-  "followers": {
-   "label": "Abonnés TikTok",
-   "value": 1119,
-   "goal": 1000
-  },
   "today": [
    {
     "time": "12:30",
@@ -69,6 +54,52 @@
     "label": "Kameto · départ de Yike",
     "caption": "Kameto annonce le départ de Yike de la Karmine Corp et lui rend hommage 🐺\n🎥 Kameto en live sur Twitch\n#tellr #kameto #karminecorp #twitch #lelive"
    }
-  ]
+  ],
+  "warmup": "Jour 1 : publier les 3 brouillons à la main, puis liker et répondre aux premiers commentaires.",
+  "growth": {
+   "followers": 1119,
+   "goal": 1000,
+   "followers_delta": 0,
+   "followers_note": "Premier relevé aujourd'hui : l'écart à J-7 sera calculé à partir du 02/12.",
+   "views_7d": 0,
+   "views_prev_7d": 0,
+   "avg_views": null,
+   "avg_watch": null,
+   "avg_note": "Aucune vidéo TELLR encore synchronisée par Zernio : premières mesures demain."
+  },
+  "insights": {
+   "groups_title": "Par streamer",
+   "streamers": [],
+   "formats": [],
+   "slots": [],
+   "takeaways": [
+    "Échantillon vide : aucune décision avant d'avoir au moins 9 vidéos publiées (3 jours).",
+    "On garde le rythme de 3 clips par jour à 12:30, 18:30 et 21:30 pour pouvoir comparer les créneaux.",
+    "On teste trois catégories dès le jour 1 (Business, Drôle, Esport) pour voir laquelle retient le mieux."
+   ],
+   "top": []
+  },
+  "trend": {
+   "labels": [
+    "19/11",
+    "20/11",
+    "21/11",
+    "22/11",
+    "23/11",
+    "24/11",
+    "25/11"
+   ],
+   "series": {
+    "TikTok": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  }
  }
 }

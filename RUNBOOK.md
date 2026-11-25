@@ -95,3 +95,11 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - Format HUB (vérifié sur index.html) : today = [{time, platform:"TikTok", title, status:"programmé"}] (PAS « text »). Les légendes sont dans channel.drafts, affichées dans la carte « Brouillons TikTok à publier », plus bas dans l'onglet TELLR, avec un bouton Copier.
 
 - ZONE DE SÉCURITÉ EN LIGNE (corrigée le 25/11 après capture de Mathieu : la barre « Rechercher » TikTok recouvrait le haut) : haut 300 px, côtés 120 px, bas 420 px. tools/make_tellr.py (SAFE_T/L/R) est déjà réglé ; vérifier les 4 images avec cette marge.
+
+## HUB v2 : stats (à remplir à chaque passage, dans hub/tellr.json → "channel")
+Principe : peu de stats, seulement celles qui disent si la chaîne grandit et ce que les gens veulent voir. Pas d'Instagram, pas de stats décoratives.
+- Ne plus remplir kpis, engagement, best_time, keywords, followers. Garder today, drafts, warmup, upcoming, alerts.
+- "growth" : followers (Zernio accounts_get_follower_stats, compte 6b060a9242fa5702dd3fa8a5), goal 1000, followers_delta (écart avec J-7), followers_note (phrase courte), views_7d et views_prev_7d (analytics_get_daily_metrics, attribution received), avg_views (vues moyennes par vidéo), avg_watch (moyenne de igReelsAvgWatchTime/1000 dans analytics_get_analytics, en secondes), avg_note. Pas de YouTube pour TELLR, donc pas de champs yt_*.
+- "insights" : groups_title « Par streamer » ; streamers [{label, value, detail:"n clips"}] triés par vues moyennes décroissantes ; formats [{label, value, detail}] (court 61-70 s vs long 71-90 s, avec temps regardé et % vu en entier = completionRate) ; slots [{label:"12:30", value, detail, group:1}] en heure de Paris ; takeaways = 3 à 4 DÉCISIONS (garder / arrêter / tester), signaler si l'échantillon est trop petit (< 9 vidéos) ; top = 3 meilleures vidéos [{title, views, detail}].
+- "trend" : 7 derniers jours glissants, labels "jj/mm", series.TikTok = vues par jour (recalculé à chaque passage).
+- Ne jamais inventer de chiffre : si Zernio n'a pas encore synchronisé, mettre 0/null et le dire dans la note.
