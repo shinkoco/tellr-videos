@@ -3,7 +3,6 @@
  "date_label": "Mercredi 25 novembre",
  "alerts": [
   "TELLR : 3 clips du jour en brouillon (Michou 12:30, Domingo 18:30, Kameto 21:30).",
-  "TELLR : le clip Kameto est de l'actu esport (départ de Yike de la Karmine Corp), pas du gameplay : à valider.",
   "TELLR : brouillons à publier à la main depuis la Boîte de réception TikTok."
  ],
  "channel": {
@@ -39,7 +38,7 @@
    },
    {
     "time": "21:30",
-    "text": "Kameto · départ de Yike, Karmine Corp (Actu)"
+    "text": "Kameto · départ de Yike, Karmine Corp (Esport)"
    }
   ],
   "upcoming": [
