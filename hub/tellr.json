@@ -2,17 +2,17 @@
  "updated": "2026-11-25T07:40:00+01:00",
  "date_label": "Mercredi 25 novembre",
  "alerts": [
-  "TELLR : 2 clips seulement aujourd'hui (Michou 12:30, Domingo 18:30), pas de créneau 21:30 : pas de 3e moment assez fort ce jour-là (le meilleur du jour fait ~380 vues).",
-  "TELLR : tools/twitch_top.py était absent du dépôt, recréé (GraphQL Twitch). Les clips Twitch font 60 s max : le clip Domingo dure 61 s, sans marge pour couper les temps morts.",
-  "TELLR : brouillons à publier à la main depuis la Boîte de réception TikTok (légendes ci-dessous)."
+  "TELLR : 3 clips du jour en brouillon (Michou 12:30, Domingo 18:30, Kameto 21:30).",
+  "TELLR : le clip Kameto est de l'actu esport (départ de Yike de la Karmine Corp), pas du gameplay : à valider.",
+  "TELLR : brouillons à publier à la main depuis la Boîte de réception TikTok."
  ],
  "channel": {
   "name": "TELLR",
   "headline": [
    "TELLR,",
-   "2 clips du jour."
+   "3 clips du jour."
   ],
-  "summary": "Michou (Oui, la boisson de DJ Snake) à 12:30 et Domingo (le pigeon de Maxime Raynaud) à 18:30, en brouillon TikTok.",
+  "summary": "Michou (Oui de DJ Snake) 12:30, Domingo (le pigeon) 18:30, Kameto (départ de Yike) 21:30, en brouillon TikTok.",
   "kpis": [
    {
     "platform": "TikTok",
@@ -36,6 +36,10 @@
    {
     "time": "18:30",
     "text": "Domingo · le pigeon de Maxime Raynaud (Drôle)"
+   },
+   {
+    "time": "21:30",
+    "text": "Kameto · départ de Yike, Karmine Corp (Actu)"
    }
   ],
   "upcoming": [
@@ -54,6 +58,11 @@
     "time": "18:30",
     "label": "Domingo · le pigeon",
     "caption": "Domingo raconte le pigeon qui a visé Maxime Raynaud, 2 m 16, à la sortie de leur live 🐦\n🎥 Domingo en live sur Twitch\n#tellr #domingo #nba #twitch #lelive"
+   },
+   {
+    "time": "21:30",
+    "label": "Kameto · départ de Yike",
+    "caption": "Kameto annonce le départ de Yike de la Karmine Corp et lui rend hommage 🐺\n🎥 Kameto en live sur Twitch\n#tellr #kameto #karminecorp #twitch #lelive"
    }
   ]
  }

@@ -85,3 +85,9 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 
 ## HUB
 - Écrire hub/tellr.json (format de https://github.com/studiomgi/studiomgi.github.io/blob/main/HUB.md) : planning du jour, drafts, stats TikTok (Zernio analytics du compte TELLR, 1 appel), alertes préfixées « TELLR : ». La page studiomgi.github.io affiche l'onglet TELLR automatiquement.
+
+## RÈGLES AJOUTÉES LE 25/11/2026 (demande de Mathieu — font foi)
+- TOUJOURS 3 clips par jour. Ne jamais conclure « pas assez de bons moments » : une journée calme se compense en élargissant la recherche (LAST_WEEK, plus de catégories : Just Chatting, IRL, Talk Shows, Special Events, Sports, Music), en prenant des moments moins viraux mais intéressants, et en CHAÎNANT des clips contigus d'un même direct (tools/twitch_chain.py ; alignement par les mots, recouvrement possible entre clips).
+- Durée MINIMUM 61 s (vidéo finale, écran de fin compris), plafond 90 s. Un clip Twitch fait 60 s max : prendre le clip entier + écran de fin (end_secs 4-5) ou chaîner deux clips.
+- Outils : tools/twitch_top.py (liste), tools/twitch_dl.py tag=slug (téléchargement signé), tools/twitch_chain.py (clips contigus), tools/transcribe_words.py (mots horodatés ; faster-whisper reçoit un tableau numpy via ffmpeg). make_tellr.py : lancer en arrière-plan (nohup), ~2 min.
+- Le jeu vidéo reste exclu ; l'actu esport/club (annonce, hommage) est tolérée en catégorie « Actu », jamais le gameplay.
