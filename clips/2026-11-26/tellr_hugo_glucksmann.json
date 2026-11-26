@@ -1,0 +1,149 @@
+{
+ "src": "/home/claude/w/c_hugo.mp4",
+ "start": 0,
+ "end": 56.9,
+ "guest": "Hugo au perchoir",
+ "category": "Actu",
+ "hook": "C'est quand votre prochain live Twitch ?",
+ "context": "Hugo au perchoir interroge Raphaël Glucksmann.",
+ "source": "Hugo au perchoir · Twitch",
+ "captions": [
+  [
+   0,
+   2.6,
+   "... faire croître *ceux qui sauvent*."
+  ],
+  [
+   3.8,
+   5.4,
+   "C'est quand votre prochain *live Twitch* ?"
+  ],
+  [
+   7.0,
+   9.3,
+   "C'est quand qu'on vous voit sur *Twitch*,"
+  ],
+  [
+   9.3,
+   10.9,
+   "Monsieur Glucksmann ? On vous *attend* ?"
+  ],
+  [
+   13.3,
+   14.8,
+   "Vous allez bien ?"
+  ],
+  [
+   15.1,
+   17.0,
+   "On ne se quitte *plus*."
+  ],
+  [
+   19.1,
+   20.2,
+   "Avec plaisir."
+  ],
+  [
+   21.7,
+   23.4,
+   "C'est quand votre prochain *live Twitch* ?"
+  ],
+  [
+   25.0,
+   26.07,
+   "J'attends plus de"
+  ],
+  [
+   26.07,
+   27.5,
+   "*discussion* avec vous avant."
+  ],
+  [
+   30.9,
+   33.5,
+   "Moi j'ai fait des études de *philosophie*."
+  ],
+  [
+   34.2,
+   35.22,
+   "Là j'ai fait des"
+  ],
+  [
+   35.22,
+   36.5,
+   "études de philo, *laissez-moi faire*."
+  ],
+  [
+   37.4,
+   40.1,
+   "Le premier des philosophes, *Socrate*,"
+  ],
+  [
+   40.1,
+   41.3,
+   "disait : *je sais que je ne sais rien*."
+  ],
+  [
+   41.4,
+   42.9,
+   "C'est la base, donc on apprend."
+  ],
+  [
+   43.8,
+   44.9,
+   "La vie est un long *apprentissage*,"
+  ],
+  [
+   44.9,
+   46.4,
+   "le prochain sera bien *meilleur*."
+  ],
+  [
+   46.5,
+   47.9,
+   "Je serai votre *Platon* ?"
+  ],
+  [
+   48.2,
+   49.4,
+   "Vous voulez faire quoi ?"
+  ],
+  [
+   49.5,
+   50.7,
+   "Je serai votre *Platon* ?"
+  ],
+  [
+   50.8,
+   52.0,
+   "Ah, vous serez mon Platon,"
+  ],
+  [
+   52.0,
+   54.2,
+   "mais Platon, c'est *l'écriture*,"
+  ],
+  [
+   54.2,
+   55.55,
+   "celui qui fige dans le"
+  ],
+  [
+   55.55,
+   56.9,
+   "marbre ce que dit Socrate."
+  ]
+ ],
+ "zooms": [
+  [
+   21.7,
+   23.4
+  ],
+  [
+   46.5,
+   50.7
+  ]
+ ],
+ "takeaway": "Une question sur Twitch peut finir en cours de philo.",
+ "end_secs": 5.0
+}

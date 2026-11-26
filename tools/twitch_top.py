@@ -13,6 +13,6 @@ for c in cats:
     except Exception as e: print("ERR", c, e); continue
     g = (d.get("data") or {}).get("game")
     if not g: print("--", c, d.get("errors")); continue
-    for e in g["clips"]["edges"]:
+    for e in (g.get("clips") or {}).get("edges",[]):
         n = e["node"]
         print(f'{n["viewCount"]:>7} | {n["durationSeconds"]:>4.0f}s | {n["broadcaster"]["displayName"]:<18} | {g["name"]} | {n["slug"]} | {n["title"]}')
