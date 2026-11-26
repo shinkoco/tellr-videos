@@ -32,10 +32,11 @@ Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. 
 Exemple de référence : clips/tests/tellr_test2_michou.mp4 (+ .json = spec complète).
 
 ---
-## État au 22/11/2026
-- Phase TEST : produire des clips dans `clips/tests/`, NE RIEN PUBLIER, ne pas toucher à Zernio.
-- Charte graphique PROVISOIRE (orange #FF6A1A, Inter Display). Mathieu dessine le logo : ne pas inventer de charte.
-- Ne jamais toucher aux tâches, dépôts ou comptes de Tamko et de Partners in Vice.
+## TOUT EN AUTOMATIQUE (confirmé par Mathieu le 26/11/2026 — fait foi)
+- Plus AUCUN brouillon à publier à la main : chaque vidéo est programmée en publication automatique (draft false, jamais isDraft).
+- Mathieu n'a aucune action de publication à faire : ne jamais lui demander de publier, coller une légende ou ajouter un son.
+- Si la programmation échoue : réessayer, sinon le signaler dans les alertes du HUB. Ne JAMAIS se rabattre sur un brouillon.
+- La charte validée ci-dessus s'applique. Ne jamais toucher aux tâches, dépôts ou comptes de Tamko et de Partners in Vice.
 
 ## Installation (chaque exécution repart de zéro)
 `pip install --break-system-packages -q yt-dlp faster-whisper numpy pillow cairosvg` puis vérifier `ffmpeg` (sinon `apt-get install -y -q ffmpeg`).
@@ -79,12 +80,12 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - TikTok @tellr_fr via Zernio, compte `6b060a9242fa5702dd3fa8a5`. NE JAMAIS publier sur Tamko (`6af7635df038e4d78c1b8569`) ni Partners in Vice (`6afc525031be0a779a30b36e`), qui sont sur le même Zernio.
 - 3 vidéos/jour MAX, PUBLICATION AUTOMATIQUE (décidé par Mathieu le 25/11 : les brouillons n'arrivent pas) : posts programmés directement à 12:30, 18:30 et 21:30 (Europe/Paris), PAS de brouillon.
 - tiktok_settings : {"draft": false, "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true}. Vidéo = URL raw GitHub du fichier poussé dans clips/AAAA-MM-JJ/.
-- La légende va dans le contenu du post (content). La recopier aussi dans hub/tellr.json → channel.drafts [{time, label, caption}] pour mémoire. Légende : 1 phrase + « 🎥 <Streamer> en live sur Twitch » + 5 hashtags (dont #tellr), sans URL, jamais #shorts.
+- La légende va dans le contenu du post (content). Ne PAS remplir channel.drafts dans hub/tellr.json (supprimer la clé : même une liste vide affiche la carte « Brouillons »). Légende : 1 phrase + « 🎥 <Streamer> en live sur Twitch » + 5 hashtags (dont #tellr), sans URL, jamais #shorts.
 - Avant d'envoyer, lister les posts Zernio du compte TELLR : ne jamais programmer 2 posts pour le même créneau.
 - Retour d'expérience Partners in Vice (22/11) : les gens décrochent vite. Ouvrir sur la phrase choc (le bandeau la porte), couper TOUS les temps morts, viser 61-75 s. Plafond ABSOLU : 90 s (promesse de la bio « en 90 secondes »), jamais au-delà, écran de fin compris.
 
 ## HUB
-- Écrire hub/tellr.json (format de https://github.com/studiomgi/studiomgi.github.io/blob/main/HUB.md) : planning du jour, drafts, stats TikTok (Zernio analytics du compte TELLR, 1 appel), alertes préfixées « TELLR : ». La page studiomgi.github.io affiche l'onglet TELLR automatiquement.
+- Écrire hub/tellr.json (format de https://github.com/studiomgi/studiomgi.github.io/blob/main/HUB.md) : planning du jour, stats TikTok (Zernio analytics du compte TELLR, 1 appel), alertes préfixées « TELLR : ». La page studiomgi.github.io affiche l'onglet TELLR automatiquement.
 
 ## RÈGLES AJOUTÉES LE 25/11/2026 (demande de Mathieu — font foi)
 - TOUJOURS 3 clips par jour. Ne jamais conclure « pas assez de bons moments » : une journée calme se compense en élargissant la recherche (LAST_WEEK, plus de catégories : Just Chatting, IRL, Talk Shows, Special Events, Sports, Music), en prenant des moments moins viraux mais intéressants, et en CHAÎNANT des clips contigus d'un même direct (tools/twitch_chain.py ; alignement par les mots, recouvrement possible entre clips).
@@ -92,13 +93,13 @@ Les polices Inter Display sont attendues dans /usr/share/fonts/opentype/inter (s
 - Outils : tools/twitch_top.py (liste), tools/twitch_dl.py tag=slug (téléchargement signé), tools/twitch_chain.py (clips contigus), tools/transcribe_words.py (mots horodatés ; faster-whisper reçoit un tableau numpy via ffmpeg). make_tellr.py : lancer en arrière-plan (nohup), ~2 min.
 - ESPORT = catégorie à part entière (décidé par Mathieu le 25/11) : grosse actualité à sortir (transferts, annonces, clubs, résultats, réactions). Afficher « Esport » dans la bulle. Seul le gameplay pur reste exclu.
 
-- Format HUB (vérifié sur index.html) : today = [{time, platform:"TikTok", title, status:"programmé"}] (PAS « text »). Les légendes sont dans channel.drafts, affichées dans la carte « Brouillons TikTok à publier », plus bas dans l'onglet TELLR, avec un bouton Copier.
+- Format HUB (vérifié sur index.html) : today = [{time, platform:"TikTok", title, status:"programmé"}] (PAS « text »). Pas de clé channel.drafts (publication automatique).
 
 - ZONE DE SÉCURITÉ EN LIGNE (corrigée le 25/11 après capture de Mathieu : la barre « Rechercher » TikTok recouvrait le haut) : haut 300 px, côtés 120 px, bas 420 px. tools/make_tellr.py (SAFE_T/L/R) est déjà réglé ; vérifier les 4 images avec cette marge.
 
 ## HUB v2 : stats (à remplir à chaque passage, dans hub/tellr.json → "channel")
 Principe : peu de stats, seulement celles qui disent si la chaîne grandit et ce que les gens veulent voir. Pas d'Instagram, pas de stats décoratives.
-- Ne plus remplir kpis, engagement, best_time, keywords, followers. Garder today, drafts, warmup, upcoming, alerts.
+- Ne plus remplir kpis, engagement, best_time, keywords, followers. Garder today, warmup, upcoming, alerts.
 - "growth" : followers (Zernio accounts_get_follower_stats, compte 6b060a9242fa5702dd3fa8a5), goal 1000, followers_delta (écart avec J-7), followers_note (phrase courte), views_7d et views_prev_7d (analytics_get_daily_metrics, attribution received), avg_views (vues moyennes par vidéo), avg_watch (moyenne de igReelsAvgWatchTime/1000 dans analytics_get_analytics, en secondes), avg_note. Pas de YouTube pour TELLR, donc pas de champs yt_*.
 - "insights" : groups_title « Par streamer » ; streamers [{label, value, detail:"n clips"}] triés par vues moyennes décroissantes ; formats [{label, value, detail}] (court 61-70 s vs long 71-90 s, avec temps regardé et % vu en entier = completionRate) ; slots [{label:"12:30", value, detail, group:1}] en heure de Paris ; takeaways = 3 à 4 DÉCISIONS (garder / arrêter / tester), signaler si l'échantillon est trop petit (< 9 vidéos) ; top = 3 meilleures vidéos [{title, views, detail}].
 - "trend" : 7 derniers jours glissants, labels "jj/mm", series.TikTok = vues par jour (recalculé à chaque passage).
