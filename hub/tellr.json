@@ -1,93 +1,158 @@
 {
- "updated": "2026-11-25T15:55:00+01:00",
- "date_label": "Mercredi 25 novembre",
+ "updated": "2026-11-26T06:45:00+01:00",
+ "date_label": "Jeudi 26 novembre",
  "alerts": [
-  "TELLR : 3 clips du jour en brouillon (Michou 12:30, Domingo 18:30, Kameto 21:30).",
-  "TELLR : brouillons à publier à la main depuis la Boîte de réception TikTok."
+  "TELLR : clip de 18:30, ZeratoR dit « quatre joueurs bannis », alors que The Spike rapporte 5 joueurs + le coach bannis 4 ans. Propos gardés tels quels, précision ajoutée dans la légende.",
+  "TELLR : clip de 21:30 (question à Raphaël Glucksmann, tournage de terrain avec d'autres micros presse) : sujet politique, à revoir avant la mise en ligne si possible.",
+  "TELLR : journée calme, les clips Étoiles (246 vues Twitch) et Hugo au perchoir (75) sont sous le haut du classement de la demande.",
+  "TELLR : hier, Domingo est sorti à 22:28 au lieu de 18:30."
  ],
  "channel": {
   "name": "TELLR",
   "headline": [
    "TELLR,",
-   "3 clips du jour."
+   "3 clips programmés."
   ],
-  "summary": "Michou (Oui de DJ Snake) 12:30, Domingo (le pigeon) 18:30, Kameto (départ de Yike) 21:30, en brouillon TikTok.",
+  "summary": "Étoiles (culture G) à 12:30, ZeratoR (drama des qualifs VALORANT) à 18:30, Hugo au perchoir (Glucksmann et Twitch) à 21:30. Publication automatique.",
   "today": [
    {
     "time": "12:30",
     "platform": "TikTok",
-    "title": "Michou · Oui de DJ Snake (Business)",
+    "title": "Étoiles · son prime en culture G (Drôle)",
     "status": "programmé"
    },
    {
     "time": "18:30",
     "platform": "TikTok",
-    "title": "Domingo · le pigeon de Maxime Raynaud (Drôle)",
+    "title": "ZeratoR · drama des qualifs VALORANT (Esport)",
     "status": "programmé"
    },
    {
     "time": "21:30",
     "platform": "TikTok",
-    "title": "Kameto · départ de Yike, Karmine Corp (Esport)",
+    "title": "Hugo au perchoir · Glucksmann et Twitch (Actu)",
     "status": "programmé"
    }
   ],
   "upcoming": [
    {
     "day": "Demain",
-    "text": "3 clips TELLR en brouillon"
+    "text": "3 clips TELLR programmés à 12:30, 18:30 et 21:30"
    }
   ],
   "drafts": [
    {
     "time": "12:30",
-    "label": "Michou · Oui de DJ Snake",
-    "caption": "Michou goûte Oui, la boisson lancée par DJ Snake, et son verdict tombe vite 🥤\n🎥 Michou en live sur Twitch\n#tellr #michou #djsnake #twitch #lelive"
+    "label": "Étoiles · culture G",
+    "caption": "Étoiles s'estime au sommet de sa forme en culture générale et raconte la réaction de quelqu'un qui l'a vu enchaîner les bonnes réponses 🧠\n🎥 Étoiles en live sur Twitch\n#tellr #etoiles #culturegenerale #twitch #lelive"
    },
    {
     "time": "18:30",
-    "label": "Domingo · le pigeon",
-    "caption": "Domingo raconte le pigeon qui a visé Maxime Raynaud, 2 m 16, à la sortie de leur live 🐦\n🎥 Domingo en live sur Twitch\n#tellr #domingo #nba #twitch #lelive"
+    "label": "ZeratoR · qualifs VALORANT",
+    "caption": "Drama en qualifs VALORANT raconté par ZeratoR : l'équipe BONK disqualifiée pour triche, et selon la presse esport 5 joueurs et le coach bannis 4 ans 🎮\n🎥 ZeratoR en live sur Twitch\n#tellr #zerator #valorant #esport #twitch"
    },
    {
     "time": "21:30",
-    "label": "Kameto · départ de Yike",
-    "caption": "Kameto annonce le départ de Yike de la Karmine Corp et lui rend hommage 🐺\n🎥 Kameto en live sur Twitch\n#tellr #kameto #karminecorp #twitch #lelive"
+    "label": "Hugo au perchoir · Glucksmann",
+    "caption": "« C'est quand votre prochain live Twitch ? » La question à Raphaël Glucksmann part en échange sur Socrate et Platon 🏛️\n🎥 Hugo au perchoir en live sur Twitch\n#tellr #hugoauperchoir #actu #twitch #lelive"
    }
   ],
-  "warmup": "Jour 1 : publier les 3 brouillons à la main, puis liker et répondre aux premiers commentaires.",
+  "warmup": "Après chaque mise en ligne : liker et répondre aux premiers commentaires.",
   "growth": {
    "followers": 1119,
    "goal": 1000,
    "followers_delta": 0,
-   "followers_note": "Premier relevé aujourd'hui : l'écart à J-7 sera calculé à partir du 02/12.",
-   "views_7d": 0,
+   "followers_note": "Dernier relevé le 25/11, un seul point : écart à J-7 calculable à partir du 02/12.",
+   "views_7d": 1853,
    "views_prev_7d": 0,
-   "avg_views": null,
-   "avg_watch": null,
-   "avg_note": "Aucune vidéo TELLR encore synchronisée par Zernio : premières mesures demain."
+   "avg_views": 618,
+   "avg_watch": 15.0,
+   "avg_note": "3 vidéos seulement (mises en ligne le 25/11) ; synchro du 26/11 au matin."
   },
   "insights": {
    "groups_title": "Par streamer",
-   "streamers": [],
-   "formats": [],
-   "slots": [],
-   "takeaways": [
-    "Échantillon vide : aucune décision avant d'avoir au moins 9 vidéos publiées (3 jours).",
-    "On garde le rythme de 3 clips par jour à 12:30, 18:30 et 21:30 pour pouvoir comparer les créneaux.",
-    "On teste trois catégories dès le jour 1 (Business, Drôle, Esport) pour voir laquelle retient le mieux."
+   "streamers": [
+    {
+     "label": "Kameto",
+     "value": 861,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Michou",
+     "value": 737,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Domingo",
+     "value": 255,
+     "detail": "1 clip"
+    }
    ],
-   "top": []
+   "formats": [
+    {
+     "label": "Court 61-70 s",
+     "value": 558,
+     "detail": "2 clips · 16,6 s regardées · 2,5 % vu en entier"
+    },
+    {
+     "label": "Long 71-90 s",
+     "value": 737,
+     "detail": "1 clip · 11,9 s regardées · 1,4 % vu en entier"
+    }
+   ],
+   "slots": [
+    {
+     "label": "12:30",
+     "value": 737,
+     "detail": "1 clip",
+     "group": 1
+    },
+    {
+     "label": "21:30",
+     "value": 861,
+     "detail": "1 clip",
+     "group": 1
+    },
+    {
+     "label": "22:30",
+     "value": 255,
+     "detail": "1 clip (Domingo, sorti en retard)",
+     "group": 1
+    }
+   ],
+   "takeaways": [
+    "Échantillon trop petit (3 vidéos, il en faut 9) : rien à arrêter pour l'instant.",
+    "Tester des ouvertures plus directes : à 6 s il ne reste que 36 à 47 % des spectateurs.",
+    "Garder les formats courts (61-70 s) pour les comparer aux longs.",
+    "Garder 12:30, 18:30 et 21:30 pour mesurer des créneaux comparables."
+   ],
+   "top": [
+    {
+     "title": "Kameto · départ de Yike",
+     "views": 861,
+     "detail": "33 likes · 3 partages · 12,6 s regardées"
+    },
+    {
+     "title": "Michou · Oui de DJ Snake",
+     "views": 737,
+     "detail": "55 likes · 1 partage · 11,9 s regardées"
+    },
+    {
+     "title": "Domingo · le pigeon",
+     "views": 255,
+     "detail": "2 likes · 2 partages · 20,5 s regardées"
+    }
+   ]
   },
   "trend": {
    "labels": [
-    "19/11",
     "20/11",
     "21/11",
     "22/11",
     "23/11",
     "24/11",
-    "25/11"
+    "25/11",
+    "26/11"
    ],
    "series": {
     "TikTok": [
@@ -96,8 +161,8 @@
      0,
      0,
      0,
-     0,
-     0
+     1391,
+     462
     ]
    }
   }
