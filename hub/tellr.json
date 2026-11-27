@@ -1,11 +1,10 @@
 {
- "updated": "2026-11-26T06:45:00+01:00",
- "date_label": "Jeudi 26 novembre",
+ "updated": "2026-11-27T06:55:00+01:00",
+ "date_label": "Vendredi 27 novembre",
  "alerts": [
-  "TELLR : clip de 18:30, ZeratoR dit « quatre joueurs bannis », alors que The Spike rapporte 5 joueurs + le coach bannis 4 ans. Propos gardés tels quels, précision ajoutée dans la légende.",
-  "TELLR : clip de 21:30 (question à Raphaël Glucksmann, tournage de terrain avec d'autres micros presse) : sujet politique, à revoir avant la mise en ligne si possible.",
-  "TELLR : journée calme, les clips Étoiles (246 vues Twitch) et Hugo au perchoir (75) sont sous le haut du classement de la demande.",
-  "TELLR : hier, Domingo est sorti à 22:28 au lieu de 18:30."
+  "TELLR : clip de 18:30 (Jean Massiet, règles de l'Arcom), sujet politique : il annonce qu'il ne les respectera pas et invite les créateurs concernés à faire de même. Ses propos sont attribués. Un nom cité en exemple est remplacé par […] (orthographe incertaine).",
+  "TELLR : peu de demande sur les dernières 24 h, les 3 moments viennent de la semaine (clips du 20 et du 22/11).",
+  "TELLR : le clip de 21:30 (ClemQuiCourt) est le plus fragile côté intérêt : un débrief sans clash ni chiffre fort."
  ],
  "channel": {
   "name": "TELLR",
@@ -13,24 +12,24 @@
    "TELLR,",
    "3 clips programmés."
   ],
-  "summary": "Étoiles (culture G) à 12:30, ZeratoR (drama des qualifs VALORANT) à 18:30, Hugo au perchoir (Glucksmann et Twitch) à 21:30. Publication automatique.",
+  "summary": "Joueur du Grenier (alertes en live) à 12:30, Jean Massiet (règles de l'Arcom) à 18:30, ClemQuiCourt (coulisses de leurs 25 h) à 21:30. Publication automatique.",
   "today": [
    {
     "time": "12:30",
     "platform": "TikTok",
-    "title": "Étoiles · son prime en culture G (Drôle)",
+    "title": "Joueur du Grenier · « Arrêtez, c'est nul ! » (Drôle)",
     "status": "programmé"
    },
    {
     "time": "18:30",
     "platform": "TikTok",
-    "title": "ZeratoR · drama des qualifs VALORANT (Esport)",
+    "title": "Jean Massiet · règles de l'Arcom (Actu)",
     "status": "programmé"
    },
    {
     "time": "21:30",
     "platform": "TikTok",
-    "title": "Hugo au perchoir · Glucksmann et Twitch (Actu)",
+    "title": "ClemQuiCourt · coulisses du live (Coulisses)",
     "status": "programmé"
    }
   ],
@@ -42,100 +41,121 @@
   ],
   "warmup": "Après chaque mise en ligne : liker et répondre aux premiers commentaires.",
   "growth": {
-   "followers": 1119,
+   "followers": 1118,
    "goal": 1000,
    "followers_delta": 0,
-   "followers_note": "Dernier relevé le 25/11, un seul point : écart à J-7 calculable à partir du 02/12.",
-   "views_7d": 1853,
+   "followers_note": "1 119 le 25/11, 1 118 le 26/11 : pas encore de relevé à J-7 (calculable à partir du 02/12).",
+   "views_7d": 8205,
    "views_prev_7d": 0,
-   "avg_views": 618,
-   "avg_watch": 15.0,
-   "avg_note": "3 vidéos seulement (mises en ligne le 25/11) ; synchro du 26/11 au matin."
+   "avg_views": 1368,
+   "avg_watch": 15.8,
+   "avg_note": "6 vidéos (25 et 26/11) ; synchro du 27/11 au matin."
   },
   "insights": {
    "groups_title": "Par streamer",
    "streamers": [
     {
+     "label": "ZeratoR",
+     "value": 4472,
+     "detail": "1 clip"
+    },
+    {
      "label": "Kameto",
-     "value": 861,
+     "value": 2181,
      "detail": "1 clip"
     },
     {
      "label": "Michou",
-     "value": 737,
+     "value": 760,
      "detail": "1 clip"
     },
     {
      "label": "Domingo",
-     "value": 255,
+     "value": 320,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Étoiles",
+     "value": 236,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Hugo au perchoir",
+     "value": 236,
      "detail": "1 clip"
     }
    ],
    "formats": [
     {
      "label": "Court 61-70 s",
-     "value": 558,
-     "detail": "2 clips · 16,6 s regardées · 2,5 % vu en entier"
+     "value": 1489,
+     "detail": "5 clips · 16,6 s regardées · 2,7 % vu en entier"
     },
     {
      "label": "Long 71-90 s",
-     "value": 737,
-     "detail": "1 clip · 11,9 s regardées · 1,4 % vu en entier"
+     "value": 760,
+     "detail": "1 clip · 11,8 s regardées · 1,3 % vu en entier"
     }
    ],
    "slots": [
     {
      "label": "12:30",
-     "value": 737,
+     "value": 498,
+     "detail": "2 clips",
+     "group": 1
+    },
+    {
+     "label": "18:30",
+     "value": 4472,
      "detail": "1 clip",
      "group": 1
     },
     {
      "label": "21:30",
-     "value": 861,
-     "detail": "1 clip",
+     "value": 1209,
+     "detail": "2 clips",
      "group": 1
     },
     {
      "label": "22:30",
-     "value": 255,
-     "detail": "1 clip (Domingo, sorti en retard)",
+     "value": 320,
+     "detail": "1 clip (sorti en retard)",
      "group": 1
     }
    ],
    "takeaways": [
-    "Échantillon trop petit (3 vidéos, il en faut 9) : rien à arrêter pour l'instant.",
-    "Tester des ouvertures plus directes : à 6 s il ne reste que 36 à 47 % des spectateurs.",
-    "Garder les formats courts (61-70 s) pour les comparer aux longs.",
+    "Échantillon trop petit (6 vidéos, il en faut 9) : rien à arrêter pour l'instant.",
+    "Garder l'esport et les histoires avec un enjeu clair : ZeratoR et Kameto sont en tête.",
+    "Tester des ouvertures plus directes : à 6 s il reste 35 à 64 % des spectateurs.",
     "Garder 12:30, 18:30 et 21:30 pour mesurer des créneaux comparables."
    ],
    "top": [
     {
+     "title": "ZeratoR · drama des qualifs VALORANT",
+     "views": 4472,
+     "detail": "50 likes · 3 partages · 23,8 s regardées"
+    },
+    {
      "title": "Kameto · départ de Yike",
-     "views": 861,
-     "detail": "33 likes · 3 partages · 12,6 s regardées"
+     "views": 2181,
+     "detail": "53 likes · 3 partages · 16,6 s regardées"
     },
     {
      "title": "Michou · Oui de DJ Snake",
-     "views": 737,
-     "detail": "55 likes · 1 partage · 11,9 s regardées"
-    },
-    {
-     "title": "Domingo · le pigeon",
-     "views": 255,
-     "detail": "2 likes · 2 partages · 20,5 s regardées"
+     "views": 760,
+     "detail": "56 likes · 1 partage · 11,8 s regardées"
     }
    ]
   },
   "trend": {
    "labels": [
-    "20/11",
     "21/11",
     "22/11",
     "23/11",
     "24/11",
     "25/11",
-    "26/11"
+    "26/11",
+    "27/11"
    ],
    "series": {
     "TikTok": [
@@ -143,9 +163,9 @@
      0,
      0,
      0,
-     0,
      1391,
-     462
+     2580,
+     4234
     ]
    }
   }

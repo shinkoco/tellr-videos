@@ -49,5 +49,32 @@
   "file": "clips/2026-11-26/tellr_hugo_glucksmann.mp4",
   "slot": "21:30",
   "zernio_post": "6b07c67f16d1774b672e4477"
+ },
+ {
+  "date": "2026-11-27",
+  "streamer": "Joueur du Grenier",
+  "title": "Arrêtez, c'est nul ! (alertes en live)",
+  "source": "Twitch clips StormyTawdryCiderM4xHeh-xhMe4uDhTrIJka4f + ExuberantTenderCheetahOpieOP-DVrTcMLrBVvfznLG (VOD 2937208833)",
+  "file": "clips/2026-11-27/tellr_jdg_alertes.mp4",
+  "slot": "12:30",
+  "zernio_post": "6b0919b3e367c7ec62f74c20"
+ },
+ {
+  "date": "2026-11-27",
+  "streamer": "Jean Massiet",
+  "title": "Règles de l'Arcom pour 2027",
+  "source": "Twitch clips AwkwardPlacidOpossumRlyTho-990h8DYyFDce4ifb + CulturedCoweringHabaneroMau5-hsct7-_XZL_8PtQK (VOD 2934930569)",
+  "file": "clips/2026-11-27/tellr_massiet_arcom.mp4",
+  "slot": "18:30",
+  "zernio_post": "6b0919b43ac4d5615f4d5cd8"
+ },
+ {
+  "date": "2026-11-27",
+  "streamer": "ClemQuiCourt",
+  "title": "Il a juste carry de fou le live",
+  "source": "Twitch clips DelightfulCleanVanillaDancingBanana-Ce5rU3BiLW6Nr9Cr + BovineDeliciousAlligatorArgieB8-KzLntdLB2_TDeNZn (VOD 2937689668)",
+  "file": "clips/2026-11-27/tellr_clem_animateur.mp4",
+  "slot": "21:30",
+  "zernio_post": "6b0919b4d1e1ff2564927c0c"
  }
 ]
