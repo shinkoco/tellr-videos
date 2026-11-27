@@ -41,7 +41,7 @@ def font(weight, size):
 
 def wrap(d, text, fnt, maxw):
     lines, cur = [], ""
-    for w in text.split():
+    for w in [t for t in text.split(" ") if t]:
         t = (cur + " " + w).strip()
         if d.textlength(t.replace("*", ""), font=fnt) <= maxw:
             cur = t
@@ -93,7 +93,7 @@ def hook_png(spec, path):
     d = ImageDraw.Draw(img)
     bx, bw = SAFE_L, SAFE_R - SAFE_L
     pad = 70
-    quote = "« " + spec["hook"] + " »"
+    quote = "«\u00a0" + spec["hook"] + "\u00a0»"
     for size in (84, 76, 68, 60, 54):
         fq = font("Black", size)
         lines = wrap(d, quote, fq, bw - 2 * pad - 40)
