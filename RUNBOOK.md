@@ -34,7 +34,6 @@ Exemple de référence : clips/tests/tellr_test2_michou.mp4 (+ .json = spec comp
 ## CATALOGUE ÉLARGI (demandé par Mathieu le 28/11/2026 — fait foi)
 - Raison : la demande est faible sur le périmètre habituel. On élargit les sujets.
 - JEU VIDÉO AUTORISÉ pour les RÉACTIONS (rire, surprise, rage, débat, annonce, avis, histoire racontée). Le gameplay pur (action ou performance sans réaction qui porte le moment) reste exclu. Test : sans les images du jeu, le moment garde-t-il son intérêt par ce que dit ou vit le streamer ? Au montage, garder le visage du streamer bien visible (facecam).
-- Un autre compte (Partners in Vice) publie du GTA 6 : avant de choisir un clip GTA, lister les posts Zernio (lecture seule) et ne jamais reprendre un moment qu'il a déjà publié ou programmé. Ne jamais modifier ses posts.
 - Sujets bienvenus en plus : sport et débriefs de matchs, voyage et IRL, insolite et animaux, cuisine, culture (cinéma, séries, musique, manga), tech, art et création, coulisses de créateurs, jeux de plateau et JdR en émission, échecs (actu et réactions, pas la partie pure).
 - Recherche à chaque passage : `tools/twitch_top.py` (catégories élargies) ET `tools/twitch_creators.py LAST_WEEK` (clips par créateur ; compléter sa liste LOGINS avec les nouveaux créateurs repérés). Un même clip peut sortir des deux : vérifier published.json.
 - Les DEUX filtres (demande + intérêt après transcription) et les autres exclusions ne changent pas. Regarder aussi les images et écouter : la catégorie Twitch ne suffit pas à trancher entre réaction et gameplay.
