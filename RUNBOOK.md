@@ -4,7 +4,7 @@ Chaîne TikTok **TELLR** (@tellr_fr). Signature : **« TELLR. Le live, raconté.
 Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. »
 
 ## LIGNE ÉDITORIALE (décidée le 23/11/2026 — fait foi, remplace l'ancienne idée « clips d'entrepreneurs »)
-- Le meilleur du live, HORS JEU VIDÉO : moments drôles, clashs, débats, réactions à l'actu, histoires racontées en live,
+- Le meilleur du live, jeu vidéo compris QUAND C'EST UNE RÉACTION (règle du 28/11, voir CATALOGUE ÉLARGI) : moments drôles, clashs, débats, réactions à l'actu, histoires racontées en live,
   et une catégorie « argent et business » (revenus, marques, deals des streamers, entrepreneurs invités).
 - Source = Twitch (seule plateforme vidéo accessible en autonomie, avec Kick à tester). YouTube, TikTok, Instagram : bloqués.
 - Français en priorité ; au maximum 1 clip anglais par jour, sous-titré en français.
@@ -12,7 +12,7 @@ Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. 
   1. Demande : le clip est dans le haut de `python3 tools/twitch_top.py LAST_WEEK FR` (ou LAST_DAY) — le public l'a déjà clippé et regardé.
   2. Intérêt : après transcription, garder uniquement s'il y a un vrai enjeu (chute drôle, info, chiffre fort, clash, retournement). Sinon, jeter.
   Les clips d'une même séquence (ex. « … 1 », « … 2 », « … 3 ») peuvent être assemblés dans l'ordre pour raconter l'histoire complète.
-- Exclure : jeu vidéo (c'est un autre compte), contenu sexuel, haine, harcèlement, mineurs mis en cause, drames privés, accusations non prouvées.
+- Exclure : gameplay pur (sans réaction), contenu sexuel, haine, harcèlement, mineurs mis en cause, drames privés, accusations non prouvées.
 
 ## CHARTE (validée le 24/11/2026)
 - Couleurs : orange #EF4A23, crème #FFF6EC, encre #1A1A1A. Logo « TellR » + bulle à coins coupés : tools/brand/ (tellr_brand.json + SVG).
@@ -32,10 +32,12 @@ Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. 
 Exemple de référence : clips/tests/tellr_test2_michou.mp4 (+ .json = spec complète).
 
 ## CATALOGUE ÉLARGI (demandé par Mathieu le 28/11/2026 — fait foi)
-- Raison : la demande est faible sur le périmètre habituel. On élargit les sujets, toujours HORS JEU VIDÉO.
+- Raison : la demande est faible sur le périmètre habituel. On élargit les sujets.
+- JEU VIDÉO AUTORISÉ pour les RÉACTIONS (rire, surprise, rage, débat, annonce, avis, histoire racontée). Le gameplay pur (action ou performance sans réaction qui porte le moment) reste exclu. Test : sans les images du jeu, le moment garde-t-il son intérêt par ce que dit ou vit le streamer ? Au montage, garder le visage du streamer bien visible (facecam).
+- Un autre compte (Partners in Vice) publie du GTA 6 : avant de choisir un clip GTA, lister les posts Zernio (lecture seule) et ne jamais reprendre un moment qu'il a déjà publié ou programmé. Ne jamais modifier ses posts.
 - Sujets bienvenus en plus : sport et débriefs de matchs, voyage et IRL, insolite et animaux, cuisine, culture (cinéma, séries, musique, manga), tech, art et création, coulisses de créateurs, jeux de plateau et JdR en émission, échecs (actu et réactions, pas la partie pure).
 - Recherche à chaque passage : `tools/twitch_top.py` (catégories élargies) ET `tools/twitch_creators.py LAST_WEEK` (clips par créateur ; compléter sa liste LOGINS avec les nouveaux créateurs repérés). Un même clip peut sortir des deux : vérifier published.json.
-- Les DEUX filtres (demande + intérêt après transcription) et les exclusions ne changent pas. Regarder aussi les images : écarter un clip dont l'écran montre surtout du gameplay, même classé Just Chatting.
+- Les DEUX filtres (demande + intérêt après transcription) et les autres exclusions ne changent pas. Regarder aussi les images et écouter : la catégorie Twitch ne suffit pas à trancher entre réaction et gameplay.
 
 ---
 ## TOUT EN AUTOMATIQUE (confirmé par Mathieu le 26/11/2026 — fait foi)

@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Top clips Twitch FR hors jeu vidéo. Usage: twitch_top.py [LAST_DAY|LAST_WEEK] [FR|EN] [categorie]"""
+"""Top clips Twitch FR (jeux : ne garder que les réactions, pas le gameplay pur). Usage: twitch_top.py [LAST_DAY|LAST_WEEK] [FR|EN] [categorie]"""
 import json, sys, urllib.request
 period = sys.argv[1] if len(sys.argv) > 1 else "LAST_DAY"
 lang = sys.argv[2] if len(sys.argv) > 2 else "FR"
 cats = sys.argv[3:] or ["Just Chatting", "Talk Shows & Podcasts", "Special Events", "Politics", "Sports", "Music", "Food & Drink", "IRL",
-    "Travel & Outdoors", "Tabletop RPGs", "Chess", "Art", "Animals, Aquariums, and Zoos", "Makers & Crafting", "Science & Technology"]
+    "Travel & Outdoors", "Tabletop RPGs", "Chess", "Art", "Animals, Aquariums, and Zoos", "Makers & Crafting", "Science & Technology",
+    "Grand Theft Auto VI", "VALORANT", "League of Legends"]
 def gql(q):
     r = urllib.request.Request("https://gql.twitch.tv/gql", json.dumps({"query": q}).encode(), {"Client-Id": "kimne78kx3ncx6brgo4mv6wki5h1ko"})
     return json.load(urllib.request.urlopen(r, timeout=30))
