@@ -31,6 +31,12 @@ Bio : « Le live, raconté. / Les moments forts des créateurs, en 90 secondes. 
 
 Exemple de référence : clips/tests/tellr_test2_michou.mp4 (+ .json = spec complète).
 
+## CATALOGUE ÉLARGI (demandé par Mathieu le 28/11/2026 — fait foi)
+- Raison : la demande est faible sur le périmètre habituel. On élargit les sujets, toujours HORS JEU VIDÉO.
+- Sujets bienvenus en plus : sport et débriefs de matchs, voyage et IRL, insolite et animaux, cuisine, culture (cinéma, séries, musique, manga), tech, art et création, coulisses de créateurs, jeux de plateau et JdR en émission, échecs (actu et réactions, pas la partie pure).
+- Recherche à chaque passage : `tools/twitch_top.py` (catégories élargies) ET `tools/twitch_creators.py LAST_WEEK` (clips par créateur ; compléter sa liste LOGINS avec les nouveaux créateurs repérés). Un même clip peut sortir des deux : vérifier published.json.
+- Les DEUX filtres (demande + intérêt après transcription) et les exclusions ne changent pas. Regarder aussi les images : écarter un clip dont l'écran montre surtout du gameplay, même classé Just Chatting.
+
 ---
 ## TOUT EN AUTOMATIQUE (confirmé par Mathieu le 26/11/2026 — fait foi)
 - Plus AUCUN brouillon à publier à la main : chaque vidéo est programmée en publication automatique (draft false, jamais isDraft).
