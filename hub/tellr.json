@@ -1,10 +1,11 @@
 {
- "updated": "2026-11-27T06:55:00+01:00",
- "date_label": "Vendredi 27 novembre",
+ "updated": "2026-11-28T06:55:00+01:00",
+ "date_label": "Samedi 28 novembre",
  "alerts": [
-  "TELLR : clip de 18:30 (Jean Massiet, règles de l'Arcom), sujet politique : il annonce qu'il ne les respectera pas et invite les créateurs concernés à faire de même. Ses propos sont attribués. Un nom cité en exemple est remplacé par […] (orthographe incertaine).",
-  "TELLR : peu de demande sur les dernières 24 h, les 3 moments viennent de la semaine (clips du 20 et du 22/11).",
-  "TELLR : le clip de 21:30 (ClemQuiCourt) est le plus fragile côté intérêt : un débrief sans clash ni chiffre fort."
+  "TELLR : peu de demande hors jeu vidéo (GTA 6 domine), les 3 moments sont des clips de la semaine à audience modeste (environ 200 à 400 vues sur Twitch).",
+  "TELLR : 12:30, Willem Dafoe est l'identification de LeFrenchie, l'acteur n'a pas été identifié à l'image lors de la vérification. Des passants apparaissent (live en rue). Un nom cité est remplacé par […].",
+  "TELLR : 18:30, LittleBigWhale parle d'une application liée à sa gamelle (aucune marque nommée, partenariat éventuel non vérifié).",
+  "TELLR : 21:30, débrief à plusieurs, l'intervenant n'est pas identifié. Clip source de 54 s, écran de fin allongé à 6 s pour dépasser 61 s. Un nom incertain est remplacé par […]."
  ],
  "channel": {
   "name": "TELLR",
@@ -12,31 +13,31 @@
    "TELLR,",
    "3 clips programmés."
   ],
-  "summary": "Joueur du Grenier (alertes en live) à 12:30, Jean Massiet (règles de l'Arcom) à 18:30, ClemQuiCourt (coulisses de leurs 25 h) à 21:30. Publication automatique.",
+  "summary": "LeFrenchie (Willem Dafoe en pleine rue) à 12:30, LittleBigWhale (la gamelle des chats) à 18:30, débrief PSG-Roma chez BruceGrannec à 21:30. Publication automatique.",
   "today": [
    {
     "time": "12:30",
     "platform": "TikTok",
-    "title": "Joueur du Grenier · « Arrêtez, c'est nul ! » (Drôle)",
+    "title": "LeFrenchie · « J'ai vu sa tête de face » (Drôle)",
     "status": "programmé"
    },
    {
     "time": "18:30",
     "platform": "TikTok",
-    "title": "Jean Massiet · règles de l'Arcom (Actu)",
+    "title": "LittleBigWhale · « L'auteur du crime » (Insolite)",
     "status": "programmé"
    },
    {
     "time": "21:30",
     "platform": "TikTok",
-    "title": "ClemQuiCourt · coulisses du live (Coulisses)",
+    "title": "Débrief PSG-Roma · Dembélé (Sport)",
     "status": "programmé"
    }
   ],
   "upcoming": [
    {
     "day": "Demain",
-    "text": "3 clips TELLR programmés à 12:30, 18:30 et 21:30"
+    "text": "3 clips TELLR prévus à 12:30, 18:30 et 21:30 (préparés au prochain passage)"
    }
   ],
   "warmup": "Après chaque mise en ligne : liker et répondre aux premiers commentaires.",
@@ -44,128 +45,143 @@
    "followers": 1118,
    "goal": 1000,
    "followers_delta": 0,
-   "followers_note": "1 119 le 25/11, 1 118 le 26/11 : pas encore de relevé à J-7 (calculable à partir du 02/12).",
-   "views_7d": 8205,
+   "followers_note": "1 118 au dernier relevé (27/11), objectif 1 000 dépassé. Pas de relevé à J-7 avant le 02/12.",
+   "views_7d": 17516,
    "views_prev_7d": 0,
-   "avg_views": 1368,
-   "avg_watch": 15.8,
-   "avg_note": "6 vidéos (25 et 26/11) ; synchro du 27/11 au matin."
+   "avg_views": 1946,
+   "avg_watch": 18.0,
+   "avg_note": "9 vidéos (25 au 27/11) ; synchro du 28/11 au matin."
   },
   "insights": {
    "groups_title": "Par streamer",
    "streamers": [
     {
      "label": "ZeratoR",
-     "value": 4472,
+     "value": 8492,
+     "detail": "1 clip"
+    },
+    {
+     "label": "ClemQuiCourt",
+     "value": 3668,
      "detail": "1 clip"
     },
     {
      "label": "Kameto",
-     "value": 2181,
+     "value": 2202,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Jean Massiet",
+     "value": 1286,
      "detail": "1 clip"
     },
     {
      "label": "Michou",
-     "value": 760,
+     "value": 771,
      "detail": "1 clip"
     },
     {
      "label": "Domingo",
-     "value": 320,
-     "detail": "1 clip"
-    },
-    {
-     "label": "Étoiles",
-     "value": 236,
+     "value": 323,
      "detail": "1 clip"
     },
     {
      "label": "Hugo au perchoir",
-     "value": 236,
+     "value": 300,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Étoiles",
+     "value": 248,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Joueur du Grenier",
+     "value": 226,
      "detail": "1 clip"
     }
    ],
    "formats": [
     {
      "label": "Court 61-70 s",
-     "value": 1489,
-     "detail": "5 clips · 16,6 s regardées · 2,7 % vu en entier"
+     "value": 1965,
+     "detail": "6 clips · 16,4 s regardées · 2,8 % vu en entier"
     },
     {
      "label": "Long 71-90 s",
-     "value": 760,
-     "detail": "1 clip · 11,8 s regardées · 1,3 % vu en entier"
+     "value": 1908,
+     "detail": "3 clips · 21,2 s regardées · 2,3 % vu en entier"
     }
    ],
    "slots": [
     {
      "label": "12:30",
-     "value": 498,
-     "detail": "2 clips",
+     "value": 415,
+     "detail": "3 clips",
      "group": 1
     },
     {
      "label": "18:30",
-     "value": 4472,
-     "detail": "1 clip",
-     "group": 1
-    },
-    {
-     "label": "21:30",
-     "value": 1209,
+     "value": 4889,
      "detail": "2 clips",
      "group": 1
     },
     {
+     "label": "21:30",
+     "value": 2057,
+     "detail": "3 clips",
+     "group": 1
+    },
+    {
      "label": "22:30",
-     "value": 320,
+     "value": 323,
      "detail": "1 clip (sorti en retard)",
      "group": 1
     }
    ],
    "takeaways": [
-    "Échantillon trop petit (6 vidéos, il en faut 9) : rien à arrêter pour l'instant.",
-    "Garder l'esport et les histoires avec un enjeu clair : ZeratoR et Kameto sont en tête.",
-    "Tester des ouvertures plus directes : à 6 s il reste 35 à 64 % des spectateurs.",
-    "Garder 12:30, 18:30 et 21:30 pour mesurer des créneaux comparables."
+    "Garder les coulisses et l'actu d'un événement précis : ZeratoR, ClemQuiCourt et Kameto sont en tête (1 clip chacun, échantillon encore petit).",
+    "Garder les deux formats : vues moyennes quasi égales (1 965 contre 1 908).",
+    "Tester des ouvertures plus directes : à 6 s il reste 35 à 66 % des spectateurs.",
+    "Garder 12:30, 18:30 et 21:30 : 12:30 est le plus faible (415 vues), mais sur 3 clips seulement."
    ],
    "top": [
     {
      "title": "ZeratoR · drama des qualifs VALORANT",
-     "views": 4472,
-     "detail": "50 likes · 3 partages · 23,8 s regardées"
+     "views": 8492,
+     "detail": "92 likes · 4 partages · 25,6 s regardées"
+    },
+    {
+     "title": "ClemQuiCourt · coulisses du live",
+     "views": 3668,
+     "detail": "97 likes · 2 partages · 26,3 s regardées"
     },
     {
      "title": "Kameto · départ de Yike",
-     "views": 2181,
-     "detail": "53 likes · 3 partages · 16,6 s regardées"
-    },
-    {
-     "title": "Michou · Oui de DJ Snake",
-     "views": 760,
-     "detail": "56 likes · 1 partage · 11,8 s regardées"
+     "views": 2202,
+     "detail": "54 likes · 3 partages · 16,5 s regardées"
     }
    ]
   },
   "trend": {
    "labels": [
-    "21/11",
     "22/11",
     "23/11",
     "24/11",
     "25/11",
     "26/11",
-    "27/11"
+    "27/11",
+    "28/11"
    ],
    "series": {
     "TikTok": [
      0,
      0,
      0,
-     0,
      1391,
      2580,
-     4234
+     12164,
+     1381
     ]
    }
   }

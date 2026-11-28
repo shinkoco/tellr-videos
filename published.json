@@ -76,5 +76,32 @@
   "file": "clips/2026-11-27/tellr_clem_animateur.mp4",
   "slot": "21:30",
   "zernio_post": "6b0919b4d1e1ff2564927c0c"
+ },
+ {
+  "date": "2026-11-28",
+  "streamer": "LeFrenchie",
+  "title": "LeFrenchie assure reconnaître Willem Dafoe",
+  "source": "Twitch clip WonderfulTenaciousPepperTheTarFu-9QwfWN0Ru3AeEw6k (VOD 2937747550, passages entre 459 s et 556 s)",
+  "file": "clips/2026-11-28/tellr_lefrenchie_dafoe.mp4",
+  "slot": "12:30",
+  "zernio_post": "6b0a6ba27ceb2676da6b2d1f"
+ },
+ {
+  "date": "2026-11-28",
+  "streamer": "LittleBigWhale",
+  "title": "La gamelle qui filme les chats",
+  "source": "Twitch clip CleanSpunkyLouseSoBayed-eST4wNKyTVFfNaR9 (VOD 2936173136 @2956s)",
+  "file": "clips/2026-11-28/tellr_littlebigwhale_chats.mp4",
+  "slot": "18:30",
+  "zernio_post": "6b0a6ba2561a7238eb095d99"
+ },
+ {
+  "date": "2026-11-28",
+  "streamer": "BruceGrannec",
+  "title": "Débrief PSG-Roma : l'entrée de Dembélé",
+  "source": "Twitch clip FantasticSoftIcecreamKappaClaus-Ay9JIUm3f1BcJLO7 (VOD 2940740714 @511s)",
+  "file": "clips/2026-11-28/tellr_debrief_psg_dembele.mp4",
+  "slot": "21:30",
+  "zernio_post": "6b0a6ba37ceb2676da6b2d25"
  }
 ]
